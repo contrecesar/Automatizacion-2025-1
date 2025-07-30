@@ -1,0 +1,253 @@
+<div class="app">
+  <header class="header">
+    <h1>🔴 Angular - Educational Framework</h1>
+    <p>Application that demonstrates the main features of Angular</p>
+  </header>
+
+<main class="main">
+    <div class="framework-info">
+      <h2>What is Angular?</h2>
+      <ul>
+        <li>🏗️ Complete TypeScript framework</li>
+        <li>⚡ Signals for modern reactivity</li>
+        <li>📦 Robust component system</li>
+        <li>🛠️ CLI and integrated tools</li>
+        <li>🎯 Dependency injection</li>
+        <li>🔄 Two-way data binding</li>
+        <li>🚀 Robust and structured framework</li>
+        <li>💪 Community backed</li>
+      </ul>
+    </div>
+
+    <div class="feature-card">
+      <h3>Angular Features</h3>
+      
+      <div class="feature-item">
+        <h4>⚡ Signals (Modern reactivity)</h4>
+        <p>Counter: {{ count() }}</p>
+        <p>Double: {{ doubleCount() }}</p>
+        <button (click)="increment()">+</button>
+        <button (click)="decrement()">-</button>
+      </div>
+
+      <div class="feature-item">
+        <h4>📝 Two-way binding</h4>
+        <input 
+          [value]="inputValue()"
+          (input)="onInputChange($event)"
+          type="text" 
+          placeholder="Write something..."
+        />
+        <p>Text: {{ inputValue() }}</p>
+        <button (click)="addItem()">Add item</button>
+      </div>
+
+      <div class="feature-item">
+        <h4>🔄 *ngIf (Structural directives)</h4>
+        <button (click)="toggleInfo()">
+          {{ showInfo() ? 'Hide' : 'Show' }} information
+        </button>
+        <div *ngIf="showInfo()" class="info-box">
+          <p>This text appears/disappears using *ngIf</p>
+          <p>Angular uses signals for automatic reactivity</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <h4>📋 *ngFor (Reactive list)</h4>
+        <ul class="item-list">
+          <li *ngFor="let item of items(); let i = index">
+            {{ item }}
+            <button (click)="removeItem(i)" class="remove-btn">×</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+          <div class="weather-app">
+        <h3>🌤️ Weather App</h3>
+        
+        <div class="api-instructions">
+          <h4>📋 How to use this Weather App:</h4>
+          <ol>
+            <li>Get your free API key from <a href="https://openweathermap.org/api" target="_blank" rel="noopener noreferrer">OpenWeatherMap</a></li>
+            <li>Sign up for a free account</li>
+            <li>Go to "My API keys" section</li>
+            <li>Copy your API key and paste it below</li>
+            <li>Enter any city name and search!</li>
+          </ol>
+          <button 
+            (click)="toggleApiInstructions()"
+            class="toggle-instructions-btn"
+          >
+            {{ showApiInstructions() ? 'Hide' : 'Show' }} API Key Instructions
+          </button>
+        </div>
+
+        <div *ngIf="showApiInstructions()" class="api-key-section">
+          <h4>🔑 Enter your OpenWeatherMap API Key:</h4>
+          <div class="api-input-group">
+            <input
+              [(ngModel)]="apiKey"
+              type="password"
+              placeholder="Paste your API key here..."
+              class="api-key-input"
+            />
+            <button 
+              (click)="clearApiKey()"
+              class="clear-api-btn"
+              title="Clear API key"
+            >
+              🗑️
+            </button>
+          </div>
+          <p class="api-note">
+            <strong>Note:</strong> Your API key is stored only in your browser and is not sent to any server except OpenWeatherMap.
+          </p>
+        </div>
+        
+        <form (submit)="handleSearch($event)" class="weather-form">
+        <div class="input-group">
+                      <input
+              type="text"
+              [value]="city()"
+              (input)="city.set($event.target.value)"
+              placeholder="Enter any city name in the world..."
+              class="city-input"
+              [disabled]="!apiKey().trim()"
+            />
+          <button type="submit" [disabled]="loading() || !city().trim() || !apiKey().trim()">
+            {{ loading() ? '🔍 Searching...' : '🔍 Search' }}
+          </button>
+        </div>
+        <p class="venezuela-info">
+          🌎 You can search any city in the world.<br/>
+          Remaining searches: {{ 5 - searchCount() }}
+          <span *ngIf="!apiKey().trim()" class="api-warning"><br/>⚠️ Please enter your API key first</span>
+        </p>
+      </form>
+
+      <div *ngIf="searchHistory().length > 0" class="search-history">
+        <h4>📋 Search history:</h4>
+        <div class="history-buttons">
+          <button
+            *ngFor="let cityName of searchHistory(); let i = index"
+            (click)="handleHistoryClick(cityName)"
+            class="history-btn"
+          >
+            {{ cityName }}
+          </button>
+        </div>
+      </div>
+
+      <div *ngIf="error()" class="error-message">
+        ❌ {{ error() }}
+      </div>
+
+      <div *ngIf="weatherData()" class="weather-card">
+        <div class="weather-header">
+          <h4>{{ weatherData().name }}, {{ weatherData().sys.country }}</h4>
+          <img 
+            [src]="getWeatherIcon(weatherData().weather[0].icon)" 
+            [alt]="weatherData().weather[0].description"
+            class="weather-icon"
+          />
+        </div>
+        
+        <div class="weather-info">
+          <div class="temperature">
+            <span class="temp-value">{{ Math.round(weatherData().main.temp) }}°C</span>
+            <span class="temp-feels">Feels like: {{ Math.round(weatherData().main.feels_like) }}°C</span>
+          </div>
+          
+          <div class="weather-description">
+            {{ getWeatherDescription(parseInt(weatherData().weather[0].icon.slice(0, -1))) }}
+          </div>
+          
+          <div class="weather-details">
+            <div class="detail-item">
+              <span class="detail-label">💧 Humidity:</span>
+              <span class="detail-value">{{ weatherData().main.humidity }}%</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">🌬️ Wind:</span>
+              <span class="detail-value">{{ weatherData().wind.speed }} m/s</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">📊 Pressure:</span>
+              <span class="detail-value">{{ weatherData().main.pressure }} hPa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="comparison-section">
+      <h3>🔄 Framework Comparison</h3>
+      
+      <div class="framework-selector">
+        <button 
+          [class.active]="selectedFramework() === 'react'"
+          (click)="selectFramework('react')"
+        >
+          React
+        </button>
+        <button 
+          [class.active]="selectedFramework() === 'vue'"
+          (click)="selectFramework('vue')"
+        >
+          Vue.js
+        </button>
+        <button 
+          [class.active]="selectedFramework() === 'angular'"
+          (click)="selectFramework('angular')"
+        >
+          Angular
+        </button>
+      </div>
+
+      <div class="framework-details">
+        <div class="framework-info">
+          <h4>{{ currentFramework().name }}</h4>
+          <div class="info-grid">
+            <div><strong>Type:</strong> {{ currentFramework().type }}</div>
+            <div><strong>Company:</strong> {{ currentFramework().company }}</div>
+            <div><strong>Language:</strong> {{ currentFramework().language }}</div>
+            <div><strong>Learning curve:</strong> {{ currentFramework().learning }}</div>
+          </div>
+        </div>
+
+        <div class="pros-cons">
+          <div class="pros">
+            <h5>✅ Advantages</h5>
+            <ul>
+              <li *ngFor="let pro of currentFramework().pros; let i = index">
+                {{ pro }}
+              </li>
+            </ul>
+          </div>
+          <div class="cons">
+            <h5>❌ Disadvantages</h5>
+            <ul>
+              <li *ngFor="let con of currentFramework().cons; let i = index">
+                {{ con }}
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="code-example">
+          <h5>💻 Code Example</h5>
+          <pre>{{ currentFramework().code }}</pre>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="code-example">
+      <h3>Angular Code Example</h3>
+      <pre>{{ codeExample }}</pre>
+  </div>
+</main>
+</div>
