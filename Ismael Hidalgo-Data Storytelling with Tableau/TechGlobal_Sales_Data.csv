@@ -1,0 +1,381 @@
+Order ID,Order Date,Ship Date,Product Category,Product Sub-Category,Region,Sales,Profit,Quantity
+10001,2021-01-02,2021-01-05,Electronics,Smartphones,West,1200.50,200.10,2
+10002,2021-01-03,2021-01-06,Office Supplies,Paper,East,50.25,10.50,5
+10003,2021-01-04,2021-01-07,Furniture,Chairs,Central,750.00,150.00,1
+10004,2021-01-05,2021-01-08,Electronics,Laptops,South,1500.00,350.00,1
+10005,2021-01-06,2021-01-09,Office Supplies,Pens,West,25.75,5.25,10
+10006,2021-01-07,2021-01-10,Furniture,Tables,East,900.00,100.00,1
+10007,2021-01-08,2021-01-11,Electronics,Headphones,Central,150.00,30.00,3
+10008,2021-01-09,2021-01-12,Office Supplies,Binders,South,80.00,15.00,4
+10009,2021-01-10,2021-01-13,Electronics,Tablets,West,600.00,120.00,1
+10010,2021-01-11,2021-01-14,Office Supplies,Storage,East,300.00,50.00,2
+10011,2021-01-12,2021-01-15,Furniture,Bookcases,Central,1100.00,220.00,1
+10012,2021-01-13,2021-01-16,Electronics,Smartwatches,South,450.00,90.00,1
+10013,2021-01-14,2021-01-17,Office Supplies,Labels,West,15.00,3.00,6
+10014,2021-01-15,2021-01-18,Furniture,Chairs,East,820.00,160.00,1
+10015,2021-01-16,2021-01-19,Electronics,Smartphones,Central,1150.00,190.00,2
+10016,2021-01-17,2021-01-20,Office Supplies,Paper,South,60.00,12.00,6
+10017,2021-01-18,2021-01-21,Furniture,Tables,West,950.00,110.00,1
+10018,2021-01-19,2021-01-22,Electronics,Laptops,East,1600.00,370.00,1
+10019,2021-01-20,2021-01-23,Office Supplies,Pens,Central,30.00,6.00,12
+10020,2021-01-21,2021-01-24,Furniture,Bookcases,South,1200.00,240.00,1
+10021,2021-01-22,2021-01-25,Electronics,Headphones,West,160.00,32.00,4
+10022,2021-01-23,2021-01-26,Office Supplies,Binders,East,90.00,18.00,5
+10023,2021-01-24,2021-01-27,Furniture,Chairs,Central,780.00,155.00,1
+10024,2021-01-25,2021-01-28,Electronics,Smartwatches,South,480.00,95.00,1
+10025,2021-01-26,2021-01-29,Office Supplies,Labels,West,18.00,3.50,7
+10026,2021-02-01,2021-02-04,Electronics,Smartphones,East,1250.00,210.00,2
+10027,2021-02-03,2021-02-06,Office Supplies,Paper,Central,55.00,11.00,5
+10028,2021-02-05,2021-02-08,Furniture,Tables,South,980.00,115.00,1
+10029,2021-02-08,2021-02-11,Electronics,Laptops,West,1700.00,380.00,1
+10030,2021-02-10,2021-02-13,Office Supplies,Pens,East,28.00,5.50,11
+10031,2021-02-12,2021-02-15,Furniture,Bookcases,Central,1300.00,260.00,1
+10032,2021-02-14,2021-02-17,Electronics,Headphones,South,170.00,34.00,4
+10033,2021-02-16,2021-02-19,Office Supplies,Binders,West,100.00,20.00,5
+10034,2021-02-18,2021-02-21,Furniture,Chairs,East,850.00,170.00,1
+10035,2021-02-20,2021-02-23,Electronics,Smartwatches,Central,500.00,100.00,1
+10036,2021-02-22,2021-02-25,Office Supplies,Labels,South,20.00,4.00,8
+10037,2021-02-24,2021-02-27,Furniture,Tables,West,1050.00,125.00,1
+10038,2021-02-26,2021-03-01,Electronics,Laptops,East,1800.00,400.00,1
+10039,2021-02-28,2021-03-03,Office Supplies,Pens,Central,32.00,6.50,13
+10040,2021-03-02,2021-03-05,Furniture,Bookcases,South,1350.00,270.00,1
+10041,2021-03-04,2021-03-07,Electronics,Smartphones,West,1220.00,205.00,2
+10042,2021-03-06,2021-03-09,Office Supplies,Paper,East,52.00,11.00,5
+10043,2021-03-08,2021-03-11,Furniture,Chairs,Central,760.00,152.00,1
+10044,2021-03-10,2021-03-13,Electronics,Laptops,South,1550.00,360.00,1
+10045,2021-03-12,2021-03-15,Office Supplies,Pens,West,26.00,5.30,10
+10046,2021-03-14,2021-03-17,Furniture,Tables,East,920.00,105.00,1
+10047,2021-03-16,2021-03-19,Electronics,Headphones,Central,155.00,31.00,3
+10048,2021-03-18,2021-03-21,Office Supplies,Binders,South,82.00,15.50,4
+10049,2021-03-20,2021-03-23,Electronics,Tablets,West,610.00,122.00,1
+10050,2021-03-22,2021-03-25,Office Supplies,Storage,East,310.00,52.00,2
+10051,2021-04-01,2021-04-04,Electronics,Smartphones,West,1210.00,203.00,2
+10052,2021-04-03,2021-04-06,Office Supplies,Paper,East,51.00,10.70,5
+10053,2021-04-05,2021-04-08,Furniture,Chairs,Central,740.00,148.00,1
+10054,2021-04-07,2021-04-10,Electronics,Laptops,South,1480.00,345.00,1
+10055,2021-04-09,2021-04-12,Office Supplies,Pens,West,25.50,5.10,10
+10056,2021-04-11,2021-04-14,Furniture,Tables,East,890.00,99.00,1
+10057,2021-04-13,2021-04-16,Electronics,Headphones,Central,148.00,29.80,3
+10058,2021-04-15,2021-04-18,Office Supplies,Binders,South,78.00,14.80,4
+10059,2021-04-17,2021-04-20,Electronics,Tablets,West,590.00,118.00,1
+10060,2021-04-19,2021-04-22,Office Supplies,Storage,East,290.00,49.00,2
+10061,2021-05-01,2021-05-04,Electronics,Smartphones,West,1230.00,207.00,2
+10062,2021-05-03,2021-05-06,Office Supplies,Paper,East,53.00,11.20,5
+10063,2021-05-05,2021-05-08,Furniture,Chairs,Central,770.00,154.00,1
+10064,2021-05-07,2021-05-10,Electronics,Laptops,South,1520.00,355.00,1
+10065,2021-05-09,2021-05-12,Office Supplies,Pens,West,27.00,5.40,10
+10066,2021-05-11,2021-05-14,Furniture,Tables,East,910.00,103.00,1
+10067,2021-05-13,2021-05-16,Electronics,Headphones,Central,152.00,30.50,3
+10068,2021-05-15,2021-05-18,Office Supplies,Binders,South,81.00,15.30,4
+10069,2021-05-17,2021-05-20,Electronics,Tablets,West,605.00,121.00,1
+10070,2021-05-19,2021-05-22,Office Supplies,Storage,East,305.00,51.00,2
+10071,2021-06-01,2021-06-04,Electronics,Smartphones,West,1205.00,201.00,2
+10072,2021-06-03,2021-06-06,Office Supplies,Paper,East,49.00,10.20,5
+10073,2021-06-05,2021-06-08,Furniture,Chairs,Central,730.00,146.00,1
+10074,2021-06-07,2021-06-10,Electronics,Laptops,South,1470.00,340.00,1
+10075,2021-06-09,2021-06-12,Office Supplies,Pens,West,25.00,5.00,10
+10076,2021-06-11,2021-06-14,Furniture,Tables,East,880.00,98.00,1
+10077,2021-06-13,2021-06-16,Electronics,Headphones,Central,145.00,29.00,3
+10078,2021-06-15,2021-06-18,Office Supplies,Binders,South,77.00,14.50,4
+10079,2021-06-17,2021-06-20,Electronics,Tablets,West,580.00,116.00,1
+10080,2021-06-19,2021-06-22,Office Supplies,Storage,East,285.00,48.00,2
+10081,2021-07-01,2021-07-04,Electronics,Smartphones,West,1240.00,208.00,2
+10082,2021-07-03,2021-07-06,Office Supplies,Paper,East,54.00,11.30,5
+10083,2021-07-05,2021-07-08,Furniture,Chairs,Central,790.00,158.00,1
+10084,2021-07-07,2021-07-10,Electronics,Laptops,South,1560.00,365.00,1
+10085,2021-07-09,2021-07-12,Office Supplies,Pens,West,28.00,5.60,10
+10086,2021-07-11,2021-07-14,Furniture,Tables,East,930.00,108.00,1
+10087,2021-07-13,2021-07-16,Electronics,Headphones,Central,160.00,32.00,3
+10088,2021-07-15,2021-07-18,Office Supplies,Binders,South,85.00,16.00,4
+10089,2021-07-17,2021-07-20,Electronics,Tablets,West,620.00,124.00,1
+10090,2021-07-19,2021-07-22,Office Supplies,Storage,East,315.00,53.00,2
+10091,2021-08-01,2021-08-04,Electronics,Smartphones,West,1260.00,212.00,2
+10092,2021-08-03,2021-08-06,Office Supplies,Paper,East,56.00,11.60,5
+10093,2021-08-05,2021-08-08,Furniture,Chairs,Central,800.00,160.00,1
+10094,2021-08-07,2021-08-10,Electronics,Laptops,South,1580.00,370.00,1
+10095,2021-08-09,2021-08-12,Office Supplies,Pens,West,29.00,5.80,10
+10096,2021-08-11,2021-08-14,Furniture,Tables,East,940.00,110.00,1
+10097,2021-08-13,2021-08-16,Electronics,Headphones,Central,165.00,33.00,3
+10098,2021-08-15,2021-08-18,Office Supplies,Binders,South,87.00,16.50,4
+10099,2021-08-17,2021-08-20,Electronics,Tablets,West,630.00,126.00,1
+10100,2021-08-19,2021-08-22,Office Supplies,Storage,East,320.00,54.00,2
+10101,2021-09-01,2021-09-04,Electronics,Smartphones,West,1280.00,215.00,2
+10102,2021-09-03,2021-09-06,Office Supplies,Paper,East,58.00,12.00,5
+10103,2021-09-05,2021-09-08,Furniture,Chairs,Central,810.00,162.00,1
+10104,2021-09-07,2021-09-10,Electronics,Laptops,South,1600.00,375.00,1
+10105,2021-09-09,2021-09-12,Office Supplies,Pens,West,30.00,6.00,10
+10106,2021-09-11,2021-09-14,Furniture,Tables,East,960.00,112.00,1
+10107,2021-09-13,2021-09-16,Electronics,Headphones,Central,170.00,34.00,3
+10108,2021-09-15,2021-09-18,Office Supplies,Binders,South,89.00,17.00,4
+10109,2021-09-17,2021-09-20,Electronics,Tablets,West,640.00,128.00,1
+10110,2021-09-19,2021-09-22,Office Supplies,Storage,East,330.00,55.00,2
+10111,2021-10-01,2021-10-04,Electronics,Smartphones,West,1300.00,220.00,2
+10112,2021-10-03,2021-10-06,Office Supplies,Paper,East,60.00,12.50,5
+10113,2021-10-05,2021-10-08,Furniture,Chairs,Central,820.00,164.00,1
+10114,2021-10-07,2021-10-10,Electronics,Laptops,South,1620.00,380.00,1
+10115,2021-10-09,2021-10-12,Office Supplies,Pens,West,31.00,6.20,10
+10116,2021-10-11,2021-10-14,Furniture,Tables,East,980.00,115.00,1
+10117,2021-10-13,2021-10-16,Electronics,Headphones,Central,175.00,35.00,3
+10118,2021-10-15,2021-10-18,Office Supplies,Binders,South,91.00,17.50,4
+10119,2021-10-17,2021-10-20,Electronics,Tablets,West,650.00,130.00,1
+10120,2021-10-19,2021-10-22,Office Supplies,Storage,East,340.00,57.00,2
+10121,2021-11-01,2021-11-04,Electronics,Smartphones,West,1320.00,225.00,2
+10122,2021-11-03,2021-11-06,Office Supplies,Paper,East,62.00,13.00,5
+10123,2021-11-05,2021-11-08,Furniture,Chairs,Central,830.00,166.00,1
+10124,2021-11-07,2021-11-10,Electronics,Laptops,South,1640.00,385.00,1
+10125,2021-11-09,2021-11-12,Office Supplies,Pens,West,32.00,6.40,10
+10126,2021-11-11,2021-11-14,Furniture,Tables,East,1000.00,120.00,1
+10127,2021-11-13,2021-11-16,Electronics,Headphones,Central,180.00,36.00,3
+10128,2021-11-15,2021-11-18,Office Supplies,Binders,South,93.00,18.00,4
+10129,2021-11-17,2021-11-20,Electronics,Tablets,West,660.00,132.00,1
+10130,2021-11-19,2021-11-22,Office Supplies,Storage,East,350.00,59.00,2
+10131,2021-12-01,2021-12-04,Electronics,Smartphones,West,1340.00,230.00,2
+10132,2021-12-03,2021-12-06,Office Supplies,Paper,East,64.00,13.50,5
+10133,2021-12-05,2021-12-08,Furniture,Chairs,Central,840.00,168.00,1
+10134,2021-12-07,2021-12-10,Electronics,Laptops,South,1660.00,390.00,1
+10135,2021-12-09,2021-12-12,Office Supplies,Pens,West,33.00,6.60,10
+10136,2021-12-11,2021-12-14,Furniture,Tables,East,1020.00,125.00,1
+10137,2021-12-13,2021-12-16,Electronics,Headphones,Central,185.00,37.00,3
+10138,2021-12-15,2021-12-18,Office Supplies,Binders,South,95.00,18.50,4
+10139,2021-12-17,2021-12-20,Electronics,Tablets,West,670.00,134.00,1
+10140,2021-12-19,2021-12-22,Office Supplies,Storage,East,360.00,61.00,2
+10141,2022-01-01,2022-01-04,Electronics,Smartphones,West,1360.00,235.00,2
+10142,2022-01-03,2022-01-06,Office Supplies,Paper,East,66.00,14.00,5
+10143,2022-01-05,2022-01-08,Furniture,Chairs,Central,850.00,170.00,1
+10144,2022-01-07,2022-01-10,Electronics,Laptops,South,1680.00,395.00,1
+10145,2022-01-09,2022-01-12,Office Supplies,Pens,West,34.00,6.80,10
+10146,2022-01-11,2022-01-14,Furniture,Tables,East,1040.00,130.00,1
+10147,2022-01-13,2022-01-16,Electronics,Headphones,Central,190.00,38.00,3
+10148,2022-01-15,2022-01-18,Office Supplies,Binders,South,97.00,19.00,4
+10149,2022-01-17,2022-01-20,Electronics,Tablets,West,680.00,136.00,1
+10150,2022-01-19,2022-01-22,Office Supplies,Storage,East,370.00,63.00,2
+10151,2022-02-01,2022-02-04,Electronics,Smartphones,West,1380.00,240.00,2
+10152,2022-02-03,2022-02-06,Office Supplies,Paper,East,68.00,14.50,5
+10153,2022-02-05,2022-02-08,Furniture,Chairs,Central,860.00,172.00,1
+10154,2022-02-07,2022-02-10,Electronics,Laptops,South,1700.00,400.00,1
+10155,2022-02-09,2022-02-12,Office Supplies,Pens,West,35.00,7.00,10
+10156,2022-02-11,2022-02-14,Furniture,Tables,East,1060.00,135.00,1
+10157,2022-02-13,2022-02-16,Electronics,Headphones,Central,195.00,39.00,3
+10158,2022-02-15,2022-02-18,Office Supplies,Binders,South,99.00,19.50,4
+10159,2022-02-17,2022-02-20,Electronics,Tablets,West,690.00,138.00,1
+10160,2022-02-19,2022-02-22,Office Supplies,Storage,East,380.00,65.00,2
+10161,2022-03-01,2022-03-04,Electronics,Smartphones,West,1400.00,245.00,2
+10162,2022-03-03,2022-03-06,Office Supplies,Paper,East,70.00,15.00,5
+10163,2022-03-05,2022-03-08,Furniture,Chairs,Central,870.00,174.00,1
+10164,2022-03-07,2022-03-10,Electronics,Laptops,South,1720.00,405.00,1
+10165,2022-03-09,2022-03-12,Office Supplies,Pens,West,36.00,7.20,10
+10166,2022-03-11,2022-03-14,Furniture,Tables,East,1080.00,140.00,1
+10167,2022-03-13,2022-03-16,Electronics,Headphones,Central,200.00,40.00,3
+10168,2022-03-15,2022-03-18,Office Supplies,Binders,South,101.00,20.00,4
+10169,2022-03-17,2022-03-20,Electronics,Tablets,West,700.00,140.00,1
+10170,2022-03-19,2022-03-22,Office Supplies,Storage,East,390.00,67.00,2
+10171,2022-04-01,2022-04-04,Electronics,Smartphones,West,1420.00,250.00,2
+10172,2022-04-03,2022-04-06,Office Supplies,Paper,East,72.00,15.50,5
+10173,2022-04-05,2022-04-08,Furniture,Chairs,Central,880.00,176.00,1
+10174,2022-04-07,2022-04-10,Electronics,Laptops,South,1740.00,410.00,1
+10175,2022-04-09,2022-04-12,Office Supplies,Pens,West,37.00,7.40,10
+10176,2022-04-11,2022-04-14,Furniture,Tables,East,1100.00,145.00,1
+10177,2022-04-13,2022-04-16,Electronics,Headphones,Central,205.00,41.00,3
+10178,2022-04-15,2022-04-18,Office Supplies,Binders,South,103.00,20.50,4
+10179,2022-04-17,2022-04-20,Electronics,Tablets,West,710.00,142.00,1
+10180,2022-04-19,2022-04-22,Office Supplies,Storage,East,400.00,69.00,2
+10181,2022-05-01,2022-05-04,Electronics,Smartphones,West,1440.00,255.00,2
+10182,2022-05-03,2022-05-06,Office Supplies,Paper,East,74.00,16.00,5
+10183,2022-05-05,2022-05-08,Furniture,Chairs,Central,890.00,178.00,1
+10184,2022-05-07,2022-05-10,Electronics,Laptops,South,1760.00,415.00,1
+10185,2022-05-09,2022-05-12,Office Supplies,Pens,West,38.00,7.60,10
+10186,2022-05-11,2022-05-14,Furniture,Tables,East,1120.00,150.00,1
+10187,2022-05-13,2022-05-16,Electronics,Headphones,Central,210.00,42.00,3
+10188,2022-05-15,2022-05-18,Office Supplies,Binders,South,105.00,21.00,4
+10189,2022-05-17,2022-05-20,Electronics,Tablets,West,720.00,144.00,1
+10190,2022-05-19,2022-05-22,Office Supplies,Storage,East,410.00,71.00,2
+10191,2022-06-01,2022-06-04,Electronics,Smartphones,West,1460.00,260.00,2
+10192,2022-06-03,2022-06-06,Office Supplies,Paper,East,76.00,16.50,5
+10193,2022-06-05,2022-06-08,Furniture,Chairs,Central,900.00,180.00,1
+10194,2022-06-07,2022-06-10,Electronics,Laptops,South,1780.00,420.00,1
+10195,2022-06-09,2022-06-12,Office Supplies,Pens,West,39.00,7.80,10
+10196,2022-06-11,2022-06-14,Furniture,Tables,East,1140.00,155.00,1
+10197,2022-06-13,2022-06-16,Electronics,Headphones,Central,215.00,43.00,3
+10198,2022-06-15,2022-06-18,Office Supplies,Binders,South,107.00,21.50,4
+10199,2022-06-17,2022-06-20,Electronics,Tablets,West,730.00,146.00,1
+10200,2022-06-19,2022-06-22,Office Supplies,Storage,East,420.00,73.00,2
+10201,2022-07-01,2022-07-04,Electronics,Smartphones,West,1480.00,265.00,2
+10202,2022-07-03,2022-07-06,Office Supplies,Paper,East,78.00,17.00,5
+10203,2022-07-05,2022-07-08,Furniture,Chairs,Central,910.00,182.00,1
+10204,2022-07-07,2022-07-10,Electronics,Laptops,South,1800.00,425.00,1
+10205,2022-07-09,2022-07-12,Office Supplies,Pens,West,40.00,8.00,10
+10206,2022-07-11,2022-07-14,Furniture,Tables,East,1160.00,160.00,1
+10207,2022-07-13,2022-07-16,Electronics,Headphones,Central,220.00,44.00,3
+10208,2022-07-15,2022-07-18,Office Supplies,Binders,South,109.00,22.00,4
+10209,2022-07-17,2022-07-20,Electronics,Tablets,West,740.00,148.00,1
+10210,2022-07-19,2022-07-22,Office Supplies,Storage,East,430.00,75.00,2
+10211,2022-08-01,2022-08-04,Electronics,Smartphones,West,1500.00,270.00,2
+10212,2022-08-03,2022-08-06,Office Supplies,Paper,East,80.00,17.50,5
+10213,2022-08-05,2022-08-08,Furniture,Chairs,Central,920.00,184.00,1
+10214,2022-08-07,2022-08-10,Electronics,Laptops,South,1820.00,430.00,1
+10215,2022-08-09,2022-08-12,Office Supplies,Pens,West,41.00,8.20,10
+10216,2022-08-11,2022-08-14,Furniture,Tables,East,1180.00,165.00,1
+10217,2022-08-13,2022-08-16,Electronics,Headphones,Central,225.00,45.00,3
+10218,2022-08-15,2022-08-18,Office Supplies,Binders,South,111.00,22.50,4
+10219,2022-08-17,2022-08-20,Electronics,Tablets,West,750.00,150.00,1
+10220,2022-08-19,2022-08-22,Office Supplies,Storage,East,440.00,77.00,2
+10221,2022-09-01,2022-09-04,Electronics,Smartphones,West,1520.00,275.00,2
+10222,2022-09-03,2022-09-06,Office Supplies,Paper,East,82.00,18.00,5
+10223,2022-09-05,2022-09-08,Furniture,Chairs,Central,930.00,186.00,1
+10224,2022-09-07,2022-09-10,Electronics,Laptops,South,1840.00,435.00,1
+10225,2022-09-09,2022-09-12,Office Supplies,Pens,West,42.00,8.40,10
+10226,2022-09-11,2022-09-14,Furniture,Tables,East,1200.00,170.00,1
+10227,2022-09-13,2022-09-16,Electronics,Headphones,Central,230.00,46.00,3
+10228,2022-09-15,2022-09-18,Office Supplies,Binders,South,113.00,23.00,4
+10229,2022-09-17,2022-09-20,Electronics,Tablets,West,760.00,152.00,1
+10230,2022-09-19,2022-09-22,Office Supplies,Storage,East,450.00,79.00,2
+10231,2022-10-01,2022-10-04,Electronics,Smartphones,West,1540.00,280.00,2
+10232,2022-10-03,2022-10-06,Office Supplies,Paper,East,84.00,18.50,5
+10233,2022-10-05,2022-10-08,Furniture,Chairs,Central,940.00,188.00,1
+10234,2022-10-07,2022-10-10,Electronics,Laptops,South,1860.00,440.00,1
+10235,2022-10-09,2022-10-12,Office Supplies,Pens,West,43.00,8.60,10
+10236,2022-10-11,2022-10-14,Furniture,Tables,East,1220.00,175.00,1
+10237,2022-10-13,2022-10-16,Electronics,Headphones,Central,235.00,47.00,3
+10238,2022-10-15,2022-10-18,Office Supplies,Binders,South,115.00,23.50,4
+10239,2022-10-17,2022-10-20,Electronics,Tablets,West,770.00,154.00,1
+10240,2022-10-19,2022-10-22,Office Supplies,Storage,East,460.00,81.00,2
+10241,2022-11-01,2022-11-04,Electronics,Smartphones,West,1560.00,285.00,2
+10242,2022-11-03,2022-11-06,Office Supplies,Paper,East,86.00,19.00,5
+10243,2022-11-05,2022-11-08,Furniture,Chairs,Central,950.00,190.00,1
+10244,2022-11-07,2022-11-10,Electronics,Laptops,South,1880.00,445.00,1
+10245,2022-11-09,2022-11-12,Office Supplies,Pens,West,44.00,8.80,10
+10246,2022-11-11,2022-11-14,Furniture,Tables,East,1240.00,180.00,1
+10247,2022-11-13,2022-11-16,Electronics,Headphones,Central,240.00,48.00,3
+10248,2022-11-15,2022-11-18,Office Supplies,Binders,South,117.00,24.00,4
+10249,2022-11-17,2022-11-20,Electronics,Tablets,West,780.00,156.00,1
+10250,2022-11-19,2022-11-22,Office Supplies,Storage,East,470.00,83.00,2
+10251,2022-12-01,2022-12-04,Electronics,Smartphones,West,1580.00,290.00,2
+10252,2022-12-03,2022-12-06,Office Supplies,Paper,East,88.00,19.50,5
+10253,2022-12-05,2022-12-08,Furniture,Chairs,Central,960.00,192.00,1
+10254,2022-12-07,2022-12-10,Electronics,Laptops,South,1900.00,450.00,1
+10255,2022-12-09,2022-12-12,Office Supplies,Pens,West,45.00,9.00,10
+10256,2022-12-11,2022-12-14,Furniture,Tables,East,1260.00,185.00,1
+10257,2022-12-13,2022-12-16,Electronics,Headphones,Central,245.00,49.00,3
+10258,2022-12-15,2022-12-18,Office Supplies,Binders,South,119.00,24.50,4
+10259,2022-12-17,2022-12-20,Electronics,Tablets,West,790.00,158.00,1
+10260,2022-12-19,2022-12-22,Office Supplies,Storage,East,480.00,85.00,2
+10261,2023-01-01,2023-01-04,Electronics,Smartphones,West,1600.00,295.00,2
+10262,2023-01-03,2023-01-06,Office Supplies,Paper,East,90.00,20.00,5
+10263,2023-01-05,2023-01-08,Furniture,Chairs,Central,970.00,194.00,1
+10264,2023-01-07,2023-01-10,Electronics,Laptops,South,1920.00,455.00,1
+10265,2023-01-09,2023-01-12,Office Supplies,Pens,West,46.00,9.20,10
+10266,2023-01-11,2023-01-14,Furniture,Tables,East,1280.00,190.00,1
+10267,2023-01-13,2023-01-16,Electronics,Headphones,Central,250.00,50.00,3
+10268,2023-01-15,2023-01-18,Office Supplies,Binders,South,121.00,25.00,4
+10269,2023-01-17,2023-01-20,Electronics,Tablets,West,800.00,160.00,1
+10270,2023-01-19,2023-01-22,Office Supplies,Storage,East,490.00,87.00,2
+10271,2023-02-01,2023-02-04,Electronics,Smartphones,West,1620.00,300.00,2
+10272,2023-02-03,2023-02-06,Office Supplies,Paper,East,92.00,20.50,5
+10273,2023-02-05,2023-02-08,Furniture,Chairs,Central,980.00,196.00,1
+10274,2023-02-07,2023-02-10,Electronics,Laptops,South,1940.00,460.00,1
+10275,2023-02-09,2023-02-12,Office Supplies,Pens,West,47.00,9.40,10
+10276,2023-02-11,2023-02-14,Furniture,Tables,East,1300.00,195.00,1
+10277,2023-02-13,2023-02-16,Electronics,Headphones,Central,255.00,51.00,3
+10278,2023-02-15,2023-02-18,Office Supplies,Binders,South,123.00,25.50,4
+10279,2023-02-17,2023-02-20,Electronics,Tablets,West,810.00,162.00,1
+10280,2023-02-19,2023-02-22,Office Supplies,Storage,East,500.00,89.00,2
+10281,2023-03-01,2023-03-04,Electronics,Smartphones,West,1640.00,305.00,2
+10282,2023-03-03,2023-03-06,Office Supplies,Paper,East,94.00,21.00,5
+10283,2023-03-05,2023-03-08,Furniture,Chairs,Central,990.00,198.00,1
+10284,2023-03-07,2023-03-10,Electronics,Laptops,South,1960.00,465.00,1
+10285,2023-03-09,2023-03-12,Office Supplies,Pens,West,48.00,9.60,10
+10286,2023-03-11,2023-03-14,Furniture,Tables,East,1320.00,200.00,1
+10287,2023-03-13,2023-03-16,Electronics,Headphones,Central,260.00,52.00,3
+10288,2023-03-15,2023-03-18,Office Supplies,Binders,South,125.00,26.00,4
+10289,2023-03-17,2023-03-20,Electronics,Tablets,West,820.00,164.00,1
+10290,2023-03-19,2023-03-22,Office Supplies,Storage,East,510.00,91.00,2
+10291,2023-04-01,2023-04-04,Electronics,Smartphones,West,1660.00,310.00,2
+10292,2023-04-03,2023-04-06,Office Supplies,Paper,East,96.00,21.50,5
+10293,2023-04-05,2023-04-08,Furniture,Chairs,Central,1000.00,200.00,1
+10294,2023-04-07,2023-04-10,Electronics,Laptops,South,1980.00,470.00,1
+10295,2023-04-09,2023-04-12,Office Supplies,Pens,West,49.00,9.80,10
+10296,2023-04-11,2023-04-14,Furniture,Tables,East,1340.00,205.00,1
+10297,2023-04-13,2023-04-16,Electronics,Headphones,Central,265.00,53.00,3
+10298,2023-04-15,2023-04-18,Office Supplies,Binders,South,127.00,26.50,4
+10299,2023-04-17,2023-04-20,Electronics,Tablets,West,830.00,166.00,1
+10300,2023-04-19,2023-04-22,Office Supplies,Storage,East,520.00,93.00,2
+10301,2023-05-01,2023-05-04,Electronics,Smartphones,West,1680.00,315.00,2
+10302,2023-05-03,2023-05-06,Office Supplies,Paper,East,98.00,22.00,5
+10303,2023-05-05,2023-05-08,Furniture,Chairs,Central,1010.00,202.00,1
+10304,2023-05-07,2023-05-10,Electronics,Laptops,South,2000.00,475.00,1
+10305,2023-05-09,2023-05-12,Office Supplies,Pens,West,50.00,10.00,10
+10306,2023-05-11,2023-05-14,Furniture,Tables,East,1360.00,210.00,1
+10307,2023-05-13,2023-05-16,Electronics,Headphones,Central,270.00,54.00,3
+10308,2023-05-15,2023-05-18,Office Supplies,Binders,South,129.00,27.00,4
+10309,2023-05-17,2023-05-20,Electronics,Tablets,West,840.00,168.00,1
+10310,2023-05-19,2023-05-22,Office Supplies,Storage,East,530.00,95.00,2
+10311,2023-06-01,2023-06-04,Electronics,Smartphones,West,1700.00,320.00,2
+10312,2023-06-03,2023-06-06,Office Supplies,Paper,East,100.00,22.50,5
+10313,2023-06-05,2023-06-08,Furniture,Chairs,Central,1020.00,204.00,1
+10314,2023-06-07,2023-06-10,Electronics,Laptops,South,2020.00,480.00,1
+10315,2023-06-09,2023-06-12,Office Supplies,Pens,West,51.00,10.20,10
+10316,2023-06-11,2023-06-14,Furniture,Tables,East,1380.00,215.00,1
+10317,2023-06-13,2023-06-16,Electronics,Headphones,Central,275.00,55.00,3
+10318,2023-06-15,2023-06-18,Office Supplies,Binders,South,131.00,27.50,4
+10319,2023-06-17,2023-06-20,Electronics,Tablets,West,850.00,170.00,1
+10320,2023-06-19,2023-06-22,Office Supplies,Storage,East,540.00,97.00,2
+10321,2023-07-01,2023-07-04,Electronics,Smartphones,West,1720.00,325.00,2
+10322,2023-07-03,2023-07-06,Office Supplies,Paper,East,102.00,23.00,5
+10323,2023-07-05,2023-07-08,Furniture,Chairs,Central,1030.00,206.00,1
+10324,2023-07-07,2023-07-10,Electronics,Laptops,South,2040.00,485.00,1
+10325,2023-07-09,2023-07-12,Office Supplies,Pens,West,52.00,10.40,10
+10326,2023-07-11,2023-07-14,Furniture,Tables,East,1400.00,220.00,1
+10327,2023-07-13,2023-07-16,Electronics,Headphones,Central,280.00,56.00,3
+10328,2023-07-15,2023-07-18,Office Supplies,Binders,South,133.00,28.00,4
+10329,2023-07-17,2023-07-20,Electronics,Tablets,West,860.00,172.00,1
+10330,2023-07-19,2023-07-22,Office Supplies,Storage,East,550.00,99.00,2
+10331,2023-08-01,2023-08-04,Electronics,Smartphones,West,1740.00,330.00,2
+10332,2023-08-03,2023-08-06,Office Supplies,Paper,East,104.00,23.50,5
+10333,2023-08-05,2023-08-08,Furniture,Chairs,Central,1040.00,208.00,1
+10334,2023-08-07,2023-08-10,Electronics,Laptops,South,2060.00,490.00,1
+10335,2023-08-09,2023-08-12,Office Supplies,Pens,West,53.00,10.60,10
+10336,2023-08-11,2023-08-14,Furniture,Tables,East,1420.00,225.00,1
+10337,2023-08-13,2023-08-16,Electronics,Headphones,Central,285.00,57.00,3
+10338,2023-08-15,2023-08-18,Office Supplies,Binders,South,135.00,28.50,4
+10339,2023-08-17,2023-08-20,Electronics,Tablets,West,870.00,174.00,1
+10340,2023-08-19,2023-08-22,Office Supplies,Storage,East,560.00,101.00,2
+10341,2023-09-01,2023-09-04,Electronics,Smartphones,West,1760.00,335.00,2
+10342,2023-09-03,2023-09-06,Office Supplies,Paper,East,106.00,24.00,5
+10343,2023-09-05,2023-09-08,Furniture,Chairs,Central,1050.00,210.00,1
+10344,2023-09-07,2023-09-10,Electronics,Laptops,South,2080.00,495.00,1
+10345,2023-09-09,2023-09-12,Office Supplies,Pens,West,54.00,10.80,10
+10346,2023-09-11,2023-09-14,Furniture,Tables,East,1440.00,230.00,1
+10347,2023-09-13,2023-09-16,Electronics,Headphones,Central,290.00,58.00,3
+10348,2023-09-15,2023-09-18,Office Supplies,Binders,South,137.00,29.00,4
+10349,2023-09-17,2023-09-20,Electronics,Tablets,West,880.00,176.00,1
+10350,2023-09-19,2023-09-22,Office Supplies,Storage,East,570.00,103.00,2
+10351,2023-10-01,2023-10-04,Electronics,Smartphones,West,1780.00,340.00,2
+10352,2023-10-03,2023-10-06,Office Supplies,Paper,East,108.00,24.50,5
+10353,2023-10-05,2023-10-08,Furniture,Chairs,Central,1060.00,212.00,1
+10354,2023-10-07,2023-10-10,Electronics,Laptops,South,2100.00,500.00,1
+10355,2023-10-09,2023-10-12,Office Supplies,Pens,West,55.00,11.00,10
+10356,2023-10-11,2023-10-14,Furniture,Tables,East,1460.00,235.00,1
+10357,2023-10-13,2023-10-16,Electronics,Headphones,Central,295.00,59.00,3
+10358,2023-10-15,2023-10-18,Office Supplies,Binders,South,139.00,29.50,4
+10359,2023-10-17,2023-10-20,Electronics,Tablets,West,890.00,178.00,1
+10360,2023-10-19,2023-10-22,Office Supplies,Storage,East,580.00,105.00,2
+10361,2023-11-01,2023-11-04,Electronics,Smartphones,West,1800.00,345.00,2
+10362,2023-11-03,2023-11-06,Office Supplies,Paper,East,110.00,25.00,5
+10363,2023-11-05,2023-11-08,Furniture,Chairs,Central,1070.00,214.00,1
+10364,2023-11-07,2023-11-10,Electronics,Laptops,South,2120.00,505.00,1
+10365,2023-11-09,2023-11-12,Office Supplies,Pens,West,56.00,11.20,10
+10366,2023-11-11,2023-11-14,Furniture,Tables,East,1480.00,240.00,1
+10367,2023-11-13,2023-11-16,Electronics,Headphones,Central,300.00,60.00,3
+10368,2023-11-15,2023-11-18,Office Supplies,Binders,South,141.00,30.00,4
+10369,2023-11-17,2023-11-20,Electronics,Tablets,West,900.00,180.00,1
+10370,2023-11-19,2023-11-22,Office Supplies,Storage,East,590.00,107.00,2
+10371,2023-12-01,2023-12-04,Electronics,Smartphones,West,1820.00,350.00,2
+10372,2023-12-03,2023-12-06,Office Supplies,Paper,East,112.00,25.50,5
+10373,2023-12-05,2023-12-08,Furniture,Chairs,Central,1080.00,216.00,1
+10374,2023-12-07,2023-12-10,Electronics,Laptops,South,2140.00,510.00,1
+10375,2023-12-09,2023-12-12,Office Supplies,Pens,West,57.00,11.40,10
+10376,2023-12-11,2023-12-14,Furniture,Tables,East,1500.00,245.00,1
+10377,2023-12-13,2023-12-16,Electronics,Headphones,Central,305.00,61.00,3
+10378,2023-12-15,2023-12-18,Office Supplies,Binders,South,143.00,30.50,4
+10379,2023-12-17,2023-12-20,Electronics,Tablets,West,910.00,182.00,1
+10380,2023-12-19,2023-12-22,Office Supplies,Storage,East,600.00,109.00,2
