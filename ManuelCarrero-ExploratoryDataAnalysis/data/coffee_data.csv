@@ -1,0 +1,500 @@
+date,city,product,category,units_sold,unit_price,customer_type,satisfaction_score
+2023-01-13,Chicago,Espresso,Classic,7,5.39,Regular,8
+2023-03-13,New York,Latte,Milk-Based,29,4.79,Regular,9
+2023-08-05,New York,Mocha,Specialty,19,3.3,Regular,10
+2023-04-22,Los Angeles,Espresso,Classic,21,4.8,Regular,4
+2023-04-12,Miami,Mocha,Specialty,3,3.06,New,9
+2023-08-18,Miami,Latte,Milk-Based,24,5.5,New,10
+2023-03-23,Houston,Espresso,Classic,2,3.55,New,8
+2023-03-21,Los Angeles,Cappuccino,Milk-Based,1,3.91,New,5
+2023-02-17,Houston,Espresso,Classic,29,4.3,Regular,7
+2023-06-26,Miami,Cappuccino,Milk-Based,27,4.84,New,10
+2023-08-24,Miami,Espresso,Classic,28,5.92,Regular,9
+2023-02-10,Miami,Americano,Classic,12,4.54,New,10
+2023-07-05,Miami,Mocha,Specialty,3,5.58,Regular,8
+2023-01-24,Los Angeles,Espresso,Classic,21,4.35,New,5
+2023-04-30,New York,Espresso,Classic,4,5.83,New,10
+2023-08-21,Chicago,Cappuccino,Milk-Based,26,3.91,Regular,9
+2023-07-01,Los Angeles,Cappuccino,Milk-Based,2,5.05,New,4
+2023-11-08,Los Angeles,Espresso,Classic,12,4.49,Regular,5
+2023-08-25,Houston,Latte,Milk-Based,14,4.17,New,8
+2023-04-23,Chicago,Mocha,Specialty,8,5.27,Regular,7
+2023-01-17,Chicago,Latte,Milk-Based,22,4.64,New,7
+2023-02-03,Los Angeles,Cappuccino,Milk-Based,29,5.91,New,4
+2023-12-02,Houston,Latte,Milk-Based,12,5.82,New,8
+2023-03-15,Chicago,Americano,Classic,14,5.18,Regular,8
+2023-10-15,Miami,Latte,Milk-Based,14,3.59,New,10
+2023-08-08,Miami,Mocha,Specialty,8,5.53,New,9
+2023-04-23,Los Angeles,Cappuccino,Milk-Based,15,5.49,New,3
+2023-01-25,New York,Espresso,Classic,25,3.84,Regular,10
+2023-12-15,Houston,Latte,Milk-Based,29,5.41,Regular,7
+2023-07-15,Miami,Americano,Classic,25,5.96,New,9
+2023-05-09,Miami,Mocha,Specialty,1,3.6,Regular,10
+2023-12-16,Miami,Espresso,Classic,11,3.6,New,8
+2023-02-27,Chicago,Cappuccino,Milk-Based,3,5.37,New,8
+2023-08-21,New York,Latte,Milk-Based,10,4.08,New,9
+2023-04-02,Miami,Mocha,Specialty,28,5.59,Regular,9
+2023-11-24,Miami,Cappuccino,Milk-Based,12,3.99,Regular,9
+2023-07-11,Los Angeles,Latte,Milk-Based,23,5.01,Regular,4
+2023-06-15,Houston,Mocha,Specialty,3,4.77,Regular,7
+2023-07-05,Chicago,Espresso,Classic,27,4.68,Regular,7
+2023-05-04,Miami,Espresso,Classic,5,5.92,Regular,9
+2023-09-06,New York,Espresso,Classic,1,5.17,Regular,10
+2023-12-04,Houston,Latte,Milk-Based,14,4.48,Regular,7
+2023-09-28,Miami,Cappuccino,Milk-Based,15,4.28,New,10
+2023-10-04,Los Angeles,Latte,Milk-Based,28,3.32,New,5
+2023-12-10,Chicago,Americano,Classic,17,3.94,New,8
+2023-08-20,New York,Mocha,Specialty,5,3.75,Regular,10
+2023-02-02,Chicago,Latte,Milk-Based,13,3.23,Regular,8
+2023-10-11,Los Angeles,Mocha,Specialty,22,5.64,Regular,4
+2023-02-06,New York,Espresso,Classic,13,3.89,Regular,8
+2023-01-17,Chicago,Espresso,Classic,6,4.37,Regular,7
+2023-05-02,Chicago,Mocha,Specialty,11,3.97,New,7
+2023-10-04,Los Angeles,Latte,Milk-Based,28,4.07,New,4
+2023-08-31,Houston,Latte,Milk-Based,1,3.68,Regular,8
+2023-02-19,Houston,Espresso,Classic,20,4.06,New,9
+2023-07-30,Houston,Americano,Classic,7,3.49,Regular,9
+2023-02-01,Houston,Espresso,Classic,5,5.08,New,7
+2023-05-08,Los Angeles,Espresso,Classic,12,3.73,Regular,5
+2023-08-18,Los Angeles,Mocha,Specialty,24,5.11,New,4
+2023-05-23,Houston,Latte,Milk-Based,17,3.76,Regular,8
+2023-08-15,Miami,Espresso,Classic,2,5.14,Regular,9
+2023-11-30,Miami,Espresso,Classic,17,5.99,Regular,10
+2023-05-02,Los Angeles,Espresso,Classic,2,4.51,New,3
+2023-09-04,Los Angeles,Americano,Classic,23,3.84,New,5
+2023-03-26,Houston,Espresso,Classic,1,3.72,Regular,7
+2023-05-16,Houston,Americano,Classic,21,4.47,New,8
+2023-12-23,Miami,Americano,Classic,23,5.02,New,10
+2023-04-08,Chicago,Latte,Milk-Based,27,3.73,Regular,7
+2023-10-24,Miami,Espresso,Classic,24,4.41,Regular,9
+2023-01-30,New York,Cappuccino,Milk-Based,6,4.2,New,10
+2023-09-29,Los Angeles,Mocha,Specialty,9,3.96,Regular,5
+2023-02-11,Los Angeles,Mocha,Specialty,16,3.12,Regular,4
+2023-02-04,Los Angeles,Mocha,Specialty,28,5.03,New,4
+2023-10-19,Los Angeles,Espresso,Classic,26,4.54,Regular,4
+2023-02-11,Houston,Mocha,Specialty,20,4.94,New,7
+2023-04-15,Chicago,Cappuccino,Milk-Based,9,5.07,Regular,6
+2023-07-22,Los Angeles,Cappuccino,Milk-Based,18,5.51,New,3
+2023-06-11,New York,Americano,Classic,25,3.63,Regular,10
+2023-11-15,Miami,Americano,Classic,3,3.69,Regular,10
+2023-10-03,Los Angeles,Espresso,Classic,16,4.67,New,6
+2023-06-28,New York,Latte,Milk-Based,2,5.99,Regular,8
+2023-05-26,Los Angeles,Cappuccino,Milk-Based,5,5.65,New,4
+2023-12-27,Chicago,Mocha,Specialty,9,3.84,Regular,8
+2023-06-03,New York,Mocha,Specialty,16,5.54,Regular,10
+2023-03-01,New York,Cappuccino,Milk-Based,24,4.21,Regular,8
+2023-05-25,Miami,Cappuccino,Milk-Based,24,5.55,Regular,9
+2023-04-15,Chicago,Cappuccino,Milk-Based,8,5.36,New,7
+2023-01-27,New York,Cappuccino,Milk-Based,20,4.74,New,10
+2023-01-23,New York,Cappuccino,Milk-Based,3,5.92,New,10
+2023-11-23,Chicago,Latte,Milk-Based,14,4.65,Regular,8
+2023-10-10,Houston,Americano,Classic,3,4.96,Regular,7
+2023-02-08,Los Angeles,Espresso,Classic,4,5.14,Regular,4
+2023-10-26,Miami,Cappuccino,Milk-Based,14,3.98,Regular,9
+2023-03-07,New York,Americano,Classic,24,4.95,New,10
+2023-01-21,Chicago,Cappuccino,Milk-Based,3,4.97,Regular,7
+2023-12-08,New York,Latte,Milk-Based,16,3.28,New,8
+2023-07-28,Miami,Mocha,Specialty,22,3.8,Regular,10
+2023-03-25,Los Angeles,Latte,Milk-Based,6,4.18,New,5
+2023-04-02,Chicago,Espresso,Classic,8,4.89,New,8
+2023-05-17,Los Angeles,Latte,Milk-Based,21,4.51,Regular,5
+2023-01-20,Houston,Americano,Classic,5,3.69,Regular,7
+2023-08-24,Chicago,Latte,Milk-Based,4,3.07,New,6
+2023-04-25,New York,Latte,Milk-Based,17,5.98,Regular,10
+2023-06-18,Chicago,Americano,Classic,6,4.11,Regular,8
+2023-06-29,Miami,Cappuccino,Milk-Based,5,5.78,New,10
+2023-06-19,New York,Mocha,Specialty,14,5.9,Regular,9
+2023-04-02,Miami,Cappuccino,Milk-Based,28,5.56,New,9
+2023-02-25,Miami,Espresso,Classic,23,3.81,New,9
+2023-06-10,Houston,Cappuccino,Milk-Based,18,4.67,Regular,8
+2023-10-23,Los Angeles,Americano,Classic,26,5.79,New,4
+2023-12-29,Houston,Espresso,Classic,18,4.85,Regular,8
+2023-10-03,Los Angeles,Mocha,Specialty,23,3.42,New,3
+2023-02-05,Chicago,Americano,Classic,2,3.97,New,8
+2023-06-03,Miami,Espresso,Classic,1,3.41,New,10
+2023-06-17,Houston,Americano,Classic,16,4.66,New,8
+2023-03-07,Los Angeles,Mocha,Specialty,23,4.26,New,5
+2023-12-13,Los Angeles,Americano,Classic,25,4.83,New,4
+2023-10-08,New York,Americano,Classic,7,4.5,New,10
+2023-04-18,Houston,Cappuccino,Milk-Based,1,3.21,New,8
+2023-08-15,Houston,Americano,Classic,23,3.08,Regular,9
+2023-08-31,Los Angeles,Mocha,Specialty,2,4.32,Regular,4
+2023-09-21,Miami,Cappuccino,Milk-Based,19,4.4,New,10
+2023-05-01,Chicago,Espresso,Classic,26,5.58,Regular,7
+2023-03-17,New York,Latte,Milk-Based,20,3.12,Regular,9
+2023-09-01,Miami,Latte,Milk-Based,11,3.38,Regular,10
+2023-08-01,Miami,Americano,Classic,8,5.31,Regular,9
+2023-09-11,Houston,Americano,Classic,7,3.26,Regular,7
+2023-12-02,New York,Latte,Milk-Based,15,5.1,Regular,10
+2023-04-23,Los Angeles,Americano,Classic,20,3.4,New,4
+2023-10-13,Los Angeles,Espresso,Classic,28,5.14,Regular,4
+2023-03-10,Houston,Americano,Classic,17,4.2,New,8
+2023-11-10,Miami,Americano,Classic,28,5.23,New,8
+2023-08-17,Los Angeles,Mocha,Specialty,5,3.55,New,4
+2023-05-13,Los Angeles,Americano,Classic,9,5.07,New,3
+2023-09-06,Los Angeles,Mocha,Specialty,26,5.75,New,4
+2023-02-09,Chicago,Americano,Classic,22,5.14,Regular,7
+2023-06-21,Chicago,Cappuccino,Milk-Based,13,3.84,Regular,8
+2023-03-19,Los Angeles,Latte,Milk-Based,5,4.84,New,4
+2023-12-28,Los Angeles,Latte,Milk-Based,3,3.74,Regular,4
+2023-07-28,Chicago,Americano,Classic,5,3.36,New,7
+2023-02-01,Los Angeles,Americano,Classic,15,3.12,New,6
+2023-10-27,New York,Americano,Classic,5,4.42,New,9
+2023-01-04,Chicago,Americano,Classic,26,4.47,New,8
+2023-08-03,Miami,Americano,Classic,4,3.52,Regular,10
+2023-04-23,Chicago,Americano,Classic,23,3.14,New,7
+2023-01-15,Houston,Americano,Classic,5,5.66,New,7
+2023-03-26,Houston,Americano,Classic,10,4.88,Regular,8
+2023-10-01,New York,Mocha,Specialty,1,4.62,New,9
+2023-10-16,New York,Mocha,Specialty,16,3.21,Regular,9
+2023-03-11,Houston,Americano,Classic,2,3.08,Regular,8
+2023-05-14,Houston,Espresso,Classic,24,5.03,New,7
+2023-08-21,Chicago,Latte,Milk-Based,28,3.39,New,7
+2023-05-23,Houston,Americano,Classic,11,5.82,New,7
+2023-08-29,New York,Espresso,Classic,1,5.88,Regular,10
+2023-04-25,New York,Cappuccino,Milk-Based,11,3.59,Regular,10
+2023-05-07,Los Angeles,Espresso,Classic,29,3.28,Regular,4
+2023-03-20,Los Angeles,Mocha,Specialty,23,3.21,Regular,4
+2023-12-09,New York,Americano,Classic,29,5.53,Regular,8
+2023-12-25,Chicago,Americano,Classic,2,3.78,New,6
+2023-11-07,Miami,Latte,Milk-Based,4,5.08,Regular,9
+2023-06-09,New York,Latte,Milk-Based,13,5.81,Regular,9
+2023-10-22,Houston,Cappuccino,Milk-Based,4,4.25,New,8
+2023-02-08,Miami,Latte,Milk-Based,4,3.53,Regular,10
+2023-12-23,Chicago,Espresso,Classic,24,5.42,Regular,8
+2023-01-22,Chicago,Mocha,Specialty,3,4.24,New,7
+2023-02-05,Miami,Cappuccino,Milk-Based,17,5.33,New,10
+2023-08-04,Houston,Espresso,Classic,23,5.79,Regular,6
+2023-07-05,Houston,Americano,Classic,12,4.29,Regular,8
+2023-04-01,Miami,Americano,Classic,25,3.71,New,9
+2023-10-03,Houston,Mocha,Specialty,17,4.52,New,7
+2023-10-31,Chicago,Americano,Classic,22,3.89,New,8
+2023-02-14,Chicago,Latte,Milk-Based,17,3.16,New,8
+2023-08-26,Miami,Latte,Milk-Based,19,3.27,New,8
+2023-01-15,Houston,Cappuccino,Milk-Based,28,5.85,New,7
+2023-09-07,Los Angeles,Latte,Milk-Based,19,4.48,New,5
+2023-06-24,Chicago,Cappuccino,Milk-Based,5,3.88,New,8
+2023-01-06,Miami,Mocha,Specialty,20,5.02,Regular,10
+2023-05-04,Houston,Espresso,Classic,21,5.37,New,8
+2023-05-04,Houston,Mocha,Specialty,7,3.27,New,8
+2023-01-09,New York,Americano,Classic,26,3.17,New,10
+2023-07-27,Los Angeles,Latte,Milk-Based,5,5.21,New,5
+2023-07-08,Houston,Mocha,Specialty,15,3.43,New,6
+2023-10-09,Chicago,Americano,Classic,26,4.85,New,7
+2023-05-19,Chicago,Americano,Classic,7,4.28,New,8
+2023-03-03,Los Angeles,Latte,Milk-Based,10,4.19,New,5
+2023-10-02,Los Angeles,Espresso,Classic,2,3.24,Regular,5
+2023-09-05,Chicago,Latte,Milk-Based,6,5.96,New,7
+2023-04-10,Chicago,Espresso,Classic,22,5.44,Regular,8
+2023-04-02,Chicago,Cappuccino,Milk-Based,25,4.78,Regular,6
+2023-03-06,Chicago,Mocha,Specialty,6,5.12,Regular,8
+2023-10-11,Chicago,Espresso,Classic,29,4.13,Regular,9
+2023-02-22,New York,Americano,Classic,27,3.75,New,10
+2023-09-03,Houston,Americano,Classic,7,4.3,New,7
+2023-01-27,Chicago,Latte,Milk-Based,28,4.71,New,7
+2023-02-03,Houston,Espresso,Classic,28,5.3,New,6
+2023-10-23,New York,Espresso,Classic,7,5.24,Regular,10
+2023-10-16,Chicago,Latte,Milk-Based,28,3.86,Regular,7
+2023-03-02,Miami,Latte,Milk-Based,1,3.67,New,10
+2023-11-02,Miami,Mocha,Specialty,26,3.04,Regular,9
+2023-07-14,Houston,Mocha,Specialty,16,4.58,New,8
+2023-10-29,Houston,Cappuccino,Milk-Based,4,4.66,New,8
+2023-11-14,New York,Mocha,Specialty,25,4.57,Regular,10
+2023-11-17,Los Angeles,Latte,Milk-Based,17,5.09,New,6
+2023-03-22,Los Angeles,Espresso,Classic,21,5.09,Regular,5
+2023-02-08,Los Angeles,Mocha,Specialty,16,5.21,Regular,5
+2023-08-19,Miami,Americano,Classic,16,5.67,New,10
+2023-01-17,Los Angeles,Cappuccino,Milk-Based,28,4.01,New,5
+2023-12-26,Houston,Cappuccino,Milk-Based,28,4.94,Regular,7
+2023-05-16,Miami,Latte,Milk-Based,26,3.69,Regular,10
+2023-02-28,Miami,Americano,Classic,9,3.78,Regular,10
+2023-05-17,Los Angeles,Latte,Milk-Based,17,3.84,Regular,6
+2023-03-26,Chicago,Espresso,Classic,20,4.81,New,7
+2023-03-05,Houston,Americano,Classic,29,5.82,New,9
+2023-05-20,Miami,Americano,Classic,5,4.84,New,10
+2023-02-11,Miami,Americano,Classic,10,5.8,Regular,9
+2023-06-15,Miami,Americano,Classic,27,3.14,New,8
+2023-02-16,Los Angeles,Espresso,Classic,24,4.13,Regular,5
+2023-10-23,New York,Cappuccino,Milk-Based,18,5.96,Regular,10
+2023-09-23,Houston,Americano,Classic,11,4.78,New,7
+2023-10-27,Houston,Latte,Milk-Based,22,5.49,New,8
+2023-08-29,Chicago,Espresso,Classic,13,3.19,New,8
+2023-06-14,New York,Cappuccino,Milk-Based,3,3.4,Regular,9
+2023-07-30,Houston,Cappuccino,Milk-Based,16,3.23,New,8
+2023-10-09,New York,Americano,Classic,5,6.0,New,9
+2023-06-11,Chicago,Espresso,Classic,3,4.67,New,9
+2023-07-26,Miami,Espresso,Classic,21,5.83,Regular,10
+2023-08-25,Houston,Mocha,Specialty,19,3.74,Regular,8
+2023-09-23,Chicago,Latte,Milk-Based,14,3.75,New,8
+2023-01-27,Los Angeles,Americano,Classic,1,5.02,New,5
+2023-03-09,Chicago,Mocha,Specialty,28,3.81,New,7
+2023-03-04,New York,Americano,Classic,26,4.49,Regular,10
+2023-06-09,Miami,Latte,Milk-Based,22,5.49,Regular,10
+2023-07-28,New York,Mocha,Specialty,12,5.45,Regular,10
+2023-08-25,New York,Espresso,Classic,27,4.21,Regular,10
+2023-05-30,Miami,Americano,Classic,15,5.35,New,9
+2023-09-05,Houston,Americano,Classic,11,3.64,Regular,7
+2023-10-10,Los Angeles,Americano,Classic,28,5.94,New,4
+2023-11-03,Miami,Latte,Milk-Based,2,4.91,Regular,10
+2023-05-22,Houston,Espresso,Classic,2,4.04,New,7
+2023-05-17,New York,Mocha,Specialty,1,5.35,New,10
+2023-10-28,Miami,Cappuccino,Milk-Based,10,5.59,New,10
+2023-08-17,Miami,Latte,Milk-Based,29,3.44,New,9
+2023-06-20,Miami,Cappuccino,Milk-Based,17,4.48,New,10
+2023-06-14,Los Angeles,Americano,Classic,24,3.14,Regular,5
+2023-07-16,Los Angeles,Mocha,Specialty,21,4.04,New,4
+2023-06-12,Houston,Espresso,Classic,15,3.39,New,7
+2023-12-06,Los Angeles,Americano,Classic,16,3.46,New,4
+2023-03-06,Miami,Espresso,Classic,16,4.92,New,9
+2023-08-14,New York,Espresso,Classic,4,4.04,New,9
+2023-03-15,Houston,Espresso,Classic,3,4.55,Regular,9
+2023-08-29,Chicago,Espresso,Classic,29,3.58,New,6
+2023-12-21,Houston,Mocha,Specialty,21,3.51,Regular,7
+2023-12-12,Miami,Cappuccino,Milk-Based,29,3.1,New,10
+2023-11-17,Houston,Cappuccino,Milk-Based,1,4.6,Regular,8
+2023-02-05,Los Angeles,Mocha,Specialty,14,4.09,New,5
+2023-02-16,Houston,Latte,Milk-Based,13,3.96,Regular,9
+2023-08-16,Los Angeles,Espresso,Classic,25,4.44,New,4
+2023-01-24,Chicago,Espresso,Classic,15,4.53,Regular,7
+2023-07-03,Chicago,Cappuccino,Milk-Based,26,5.6,New,7
+2023-05-06,Miami,Latte,Milk-Based,17,4.79,New,10
+2023-12-16,Los Angeles,Mocha,Specialty,15,4.61,Regular,4
+2023-02-10,Miami,Latte,Milk-Based,22,3.71,New,10
+2023-12-16,Los Angeles,Mocha,Specialty,14,4.39,New,5
+2023-03-15,Los Angeles,Mocha,Specialty,14,3.44,New,4
+2023-08-24,Chicago,Cappuccino,Milk-Based,7,5.06,Regular,7
+2023-05-28,Miami,Americano,Classic,14,5.25,Regular,8
+2023-08-15,Chicago,Espresso,Classic,26,4.06,New,7
+2023-12-20,Chicago,Americano,Classic,15,3.31,New,8
+2023-04-12,Houston,Cappuccino,Milk-Based,5,3.55,New,8
+2023-05-02,Houston,Espresso,Classic,25,5.52,New,9
+2023-06-01,Chicago,Mocha,Specialty,26,4.61,Regular,8
+2023-05-21,New York,Americano,Classic,17,4.03,Regular,9
+2023-09-12,Chicago,Mocha,Specialty,4,4.07,Regular,9
+2023-06-30,Los Angeles,Mocha,Specialty,13,4.44,Regular,4
+2023-05-09,Los Angeles,Mocha,Specialty,15,5.21,Regular,4
+2023-06-08,Houston,Espresso,Classic,8,4.29,Regular,7
+2023-07-06,Los Angeles,Mocha,Specialty,10,3.85,Regular,4
+2023-06-17,Houston,Cappuccino,Milk-Based,20,4.94,Regular,8
+2023-03-09,Miami,Latte,Milk-Based,27,4.07,New,10
+2023-09-14,Chicago,Mocha,Specialty,5,5.8,Regular,9
+2023-09-04,Chicago,Cappuccino,Milk-Based,22,3.68,New,8
+2023-08-28,New York,Espresso,Classic,23,4.46,Regular,9
+2023-12-13,Houston,Latte,Milk-Based,23,5.53,New,6
+2023-07-22,New York,Espresso,Classic,19,3.05,New,10
+2023-03-05,Houston,Mocha,Specialty,4,5.99,New,7
+2023-10-27,Houston,Cappuccino,Milk-Based,2,4.73,New,7
+2023-12-12,Los Angeles,Espresso,Classic,15,5.45,New,4
+2023-11-14,Miami,Espresso,Classic,24,5.17,New,9
+2023-04-24,New York,Mocha,Specialty,2,4.67,New,10
+2023-11-29,Houston,Cappuccino,Milk-Based,26,3.84,Regular,6
+2023-01-24,New York,Latte,Milk-Based,6,5.9,New,9
+2023-03-01,New York,Americano,Classic,19,3.6,Regular,8
+2023-03-11,Houston,Mocha,Specialty,17,4.59,New,7
+2023-12-10,Miami,Cappuccino,Milk-Based,26,5.3,New,10
+2023-03-21,Houston,Mocha,Specialty,5,4.52,Regular,8
+2023-11-12,Houston,Americano,Classic,13,4.6,New,6
+2023-12-20,Chicago,Espresso,Classic,6,4.01,Regular,9
+2023-08-16,Los Angeles,Americano,Classic,5,3.19,New,4
+2023-12-18,Chicago,Espresso,Classic,13,5.05,New,8
+2023-07-23,Chicago,Espresso,Classic,1,3.42,Regular,7
+2023-08-21,New York,Espresso,Classic,17,3.35,Regular,10
+2023-01-11,New York,Mocha,Specialty,6,4.24,New,10
+2023-03-06,Miami,Latte,Milk-Based,5,5.49,Regular,8
+2023-10-11,Los Angeles,Espresso,Classic,14,5.8,Regular,5
+2023-06-18,Los Angeles,Latte,Milk-Based,2,3.54,Regular,5
+2023-03-16,Los Angeles,Cappuccino,Milk-Based,1,5.22,New,5
+2023-02-26,New York,Latte,Milk-Based,28,5.53,Regular,10
+2023-07-03,Los Angeles,Espresso,Classic,11,5.39,New,4
+2023-03-31,Chicago,Espresso,Classic,21,3.56,Regular,7
+2023-08-04,Miami,Latte,Milk-Based,27,4.9,Regular,9
+2023-09-01,Houston,Espresso,Classic,25,5.63,New,8
+2023-10-31,New York,Mocha,Specialty,18,5.45,New,9
+2023-04-24,Miami,Mocha,Specialty,8,4.13,Regular,9
+2023-06-04,Houston,Mocha,Specialty,29,3.9,Regular,8
+2023-09-03,Houston,Espresso,Classic,15,4.73,New,7
+2023-09-09,Houston,Espresso,Classic,1,4.17,Regular,8
+2023-06-14,Miami,Espresso,Classic,14,3.2,Regular,8
+2023-03-06,Chicago,Espresso,Classic,19,4.63,New,6
+2023-11-02,Miami,Americano,Classic,6,4.0,New,10
+2023-09-16,Miami,Americano,Classic,8,5.08,New,9
+2023-12-26,New York,Espresso,Classic,15,5.64,Regular,9
+2023-08-20,Los Angeles,Americano,Classic,20,5.22,New,5
+2023-08-21,Houston,Cappuccino,Milk-Based,29,3.46,New,8
+2023-06-10,Houston,Espresso,Classic,29,3.75,New,7
+2023-07-11,Los Angeles,Cappuccino,Milk-Based,1,3.1,New,5
+2023-02-16,New York,Espresso,Classic,2,5.29,Regular,9
+2023-02-19,Chicago,Americano,Classic,1,3.31,Regular,8
+2023-01-31,Miami,Mocha,Specialty,13,3.38,New,10
+2023-07-30,Chicago,Espresso,Classic,15,5.39,New,7
+2023-05-28,Miami,Espresso,Classic,29,3.69,New,9
+2023-02-23,Miami,Cappuccino,Milk-Based,27,4.92,Regular,10
+2023-12-03,Houston,Latte,Milk-Based,4,4.63,Regular,7
+2023-06-29,Miami,Espresso,Classic,20,3.54,New,10
+2023-05-23,Miami,Espresso,Classic,8,4.75,Regular,10
+2023-10-15,Miami,Americano,Classic,23,4.39,Regular,10
+2023-12-03,Chicago,Mocha,Specialty,13,3.42,Regular,8
+2023-05-20,Chicago,Latte,Milk-Based,25,3.77,New,6
+2023-01-04,Los Angeles,Cappuccino,Milk-Based,28,4.78,Regular,6
+2023-12-03,Houston,Mocha,Specialty,16,5.09,Regular,7
+2023-11-21,New York,Latte,Milk-Based,5,5.12,Regular,9
+2023-04-21,Houston,Mocha,Specialty,17,4.73,New,7
+2023-06-24,Los Angeles,Americano,Classic,9,4.27,New,3
+2023-06-16,Miami,Cappuccino,Milk-Based,9,5.78,Regular,9
+2023-03-21,Los Angeles,Espresso,Classic,1,3.34,Regular,4
+2023-05-20,Houston,Espresso,Classic,26,5.52,New,8
+2023-11-07,Houston,Americano,Classic,23,5.76,New,8
+2023-04-21,Miami,Cappuccino,Milk-Based,23,3.68,Regular,9
+2023-08-09,New York,Cappuccino,Milk-Based,15,3.16,New,9
+2023-09-07,Miami,Mocha,Specialty,10,5.41,New,9
+2023-04-23,Houston,Espresso,Classic,26,4.0,Regular,8
+2023-04-15,Chicago,Espresso,Classic,25,5.59,Regular,8
+2023-05-11,Chicago,Latte,Milk-Based,2,4.4,New,9
+2023-01-04,Houston,Espresso,Classic,27,4.36,New,8
+2023-03-08,Houston,Latte,Milk-Based,22,3.53,Regular,7
+2023-10-14,Chicago,Mocha,Specialty,20,4.26,Regular,6
+2023-01-22,Houston,Americano,Classic,1,4.09,Regular,9
+2023-02-09,Chicago,Americano,Classic,26,3.04,New,7
+2023-07-27,Houston,Mocha,Specialty,17,3.53,New,8
+2023-07-27,New York,Espresso,Classic,9,3.45,New,9
+2023-11-13,Houston,Latte,Milk-Based,22,3.26,New,7
+2023-08-12,New York,Espresso,Classic,17,3.9,Regular,10
+2023-10-29,Houston,Americano,Classic,19,3.63,Regular,8
+2023-06-08,Chicago,Americano,Classic,29,4.87,Regular,8
+2023-03-28,New York,Cappuccino,Milk-Based,19,3.2,Regular,8
+2023-09-19,Los Angeles,Mocha,Specialty,15,4.58,New,5
+2023-11-27,Los Angeles,Cappuccino,Milk-Based,28,4.44,Regular,6
+2023-03-16,Chicago,Espresso,Classic,19,3.47,Regular,7
+2023-11-05,Los Angeles,Latte,Milk-Based,8,5.59,Regular,5
+2023-11-18,Houston,Latte,Milk-Based,3,4.12,New,7
+2023-10-24,Houston,Mocha,Specialty,19,4.93,New,7
+2023-03-19,Houston,Cappuccino,Milk-Based,23,5.94,Regular,8
+2023-08-15,Chicago,Americano,Classic,7,4.98,New,8
+2023-01-29,Chicago,Mocha,Specialty,25,3.67,Regular,7
+2023-08-25,Houston,Cappuccino,Milk-Based,23,5.02,Regular,9
+2023-07-08,Chicago,Espresso,Classic,22,4.02,Regular,9
+2023-11-11,Miami,Espresso,Classic,3,5.66,New,9
+2023-10-25,Miami,Americano,Classic,2,5.42,Regular,9
+2023-10-20,Los Angeles,Americano,Classic,14,4.81,New,4
+2023-09-01,Miami,Mocha,Specialty,20,5.0,Regular,10
+2023-08-19,New York,Espresso,Classic,14,3.88,New,9
+2023-09-16,Los Angeles,Espresso,Classic,7,4.9,Regular,3
+2023-12-29,Houston,Latte,Milk-Based,23,5.54,New,6
+2023-09-25,Miami,Mocha,Specialty,4,4.93,Regular,10
+2023-07-10,Chicago,Cappuccino,Milk-Based,2,5.73,New,8
+2023-06-23,Miami,Americano,Classic,20,4.01,Regular,9
+2023-02-03,Chicago,Cappuccino,Milk-Based,3,4.77,Regular,7
+2023-12-14,Houston,Mocha,Specialty,5,4.04,New,7
+2023-12-03,Miami,Cappuccino,Milk-Based,2,5.58,Regular,9
+2023-02-11,Miami,Cappuccino,Milk-Based,20,5.92,Regular,10
+2023-06-08,Houston,Cappuccino,Milk-Based,17,5.61,Regular,8
+2023-12-29,New York,Mocha,Specialty,27,5.68,New,10
+2023-07-12,Chicago,Mocha,Specialty,18,3.07,Regular,8
+2023-02-17,Houston,Mocha,Specialty,8,5.1,New,7
+2023-07-05,Chicago,Espresso,Classic,7,3.65,Regular,8
+2023-06-24,Houston,Latte,Milk-Based,11,4.27,Regular,9
+2023-03-12,Los Angeles,Latte,Milk-Based,26,5.7,Regular,4
+2023-02-21,Miami,Cappuccino,Milk-Based,23,5.05,Regular,9
+2023-11-13,Los Angeles,Cappuccino,Milk-Based,18,4.59,New,5
+2023-03-25,Los Angeles,Latte,Milk-Based,4,4.49,Regular,3
+2023-01-23,Houston,Americano,Classic,17,4.22,New,7
+2023-08-16,Miami,Latte,Milk-Based,26,5.16,New,10
+2023-04-30,Miami,Americano,Classic,10,3.42,Regular,10
+2023-08-29,Los Angeles,Cappuccino,Milk-Based,6,5.2,New,4
+2023-08-14,Houston,Mocha,Specialty,12,4.9,New,8
+2023-09-15,Miami,Americano,Classic,7,4.72,New,9
+2023-04-13,Miami,Latte,Milk-Based,26,4.21,Regular,10
+2023-01-27,Houston,Cappuccino,Milk-Based,14,3.14,New,6
+2023-02-22,Miami,Mocha,Specialty,11,3.55,Regular,9
+2023-02-12,Los Angeles,Cappuccino,Milk-Based,4,5.31,New,6
+2023-09-20,Los Angeles,Americano,Classic,11,3.87,New,4
+2023-04-24,Houston,Espresso,Classic,17,5.16,New,8
+2023-08-01,New York,Espresso,Classic,3,5.85,New,9
+2023-07-11,Los Angeles,Mocha,Specialty,15,5.86,New,4
+2023-07-11,Los Angeles,Espresso,Classic,5,4.45,Regular,5
+2023-02-20,Chicago,Cappuccino,Milk-Based,4,4.62,Regular,8
+2023-01-20,Chicago,Latte,Milk-Based,3,5.52,New,9
+2023-12-28,Houston,Latte,Milk-Based,27,4.79,New,7
+2023-01-03,New York,Mocha,Specialty,9,5.31,Regular,9
+2023-04-21,Los Angeles,Cappuccino,Milk-Based,9,3.23,New,5
+2023-05-28,Los Angeles,Espresso,Classic,1,4.49,New,4
+2023-01-25,Los Angeles,Espresso,Classic,10,4.38,New,5
+2023-08-23,New York,Mocha,Specialty,3,3.23,Regular,8
+2023-11-02,Miami,Americano,Classic,6,4.77,Regular,10
+2023-10-22,Los Angeles,Mocha,Specialty,5,3.27,Regular,4
+2023-08-08,New York,Cappuccino,Milk-Based,29,5.37,New,10
+2023-10-20,Houston,Latte,Milk-Based,23,4.56,Regular,8
+2023-09-26,Chicago,Espresso,Classic,19,5.2,Regular,9
+2023-10-06,Miami,Mocha,Specialty,17,4.98,Regular,9
+2023-08-29,New York,Americano,Classic,16,5.55,New,10
+2023-05-10,New York,Cappuccino,Milk-Based,18,4.47,New,8
+2023-06-26,Los Angeles,Espresso,Classic,9,5.83,Regular,4
+2023-06-20,Los Angeles,Mocha,Specialty,16,5.78,Regular,5
+2023-10-07,Chicago,Cappuccino,Milk-Based,26,4.7,Regular,9
+2023-12-23,Houston,Americano,Classic,7,3.1,Regular,8
+2023-02-02,Houston,Latte,Milk-Based,7,3.89,Regular,8
+2023-04-14,New York,Cappuccino,Milk-Based,18,4.27,Regular,9
+2023-06-11,Chicago,Espresso,Classic,20,5.53,New,8
+2023-08-31,Chicago,Mocha,Specialty,27,5.49,Regular,9
+2023-05-27,Chicago,Latte,Milk-Based,14,4.79,Regular,9
+2023-05-20,New York,Cappuccino,Milk-Based,12,3.36,New,9
+2023-07-24,Houston,Americano,Classic,3,5.09,New,7
+2023-04-06,Houston,Cappuccino,Milk-Based,26,5.17,New,7
+2023-09-23,Chicago,Cappuccino,Milk-Based,15,5.41,Regular,9
+2023-02-10,Houston,Americano,Classic,29,4.98,Regular,9
+2023-05-31,Chicago,Mocha,Specialty,1,5.66,Regular,8
+2023-06-17,Chicago,Espresso,Classic,12,3.7,New,8
+2023-11-05,Houston,Americano,Classic,3,5.61,Regular,7
+2023-06-29,Houston,Americano,Classic,13,4.59,Regular,8
+2023-11-11,Houston,Cappuccino,Milk-Based,27,5.99,New,7
+2023-02-08,Houston,Espresso,Classic,29,5.3,New,8
+2023-12-14,Los Angeles,Mocha,Specialty,12,4.88,Regular,5
+2023-11-08,Houston,Latte,Milk-Based,12,5.95,Regular,8
+2023-02-04,Los Angeles,Latte,Milk-Based,25,4.01,New,5
+2023-07-16,Miami,Cappuccino,Milk-Based,5,5.2,Regular,10
+2023-03-20,Houston,Mocha,Specialty,3,4.4,New,8
+2023-08-16,New York,Cappuccino,Milk-Based,18,3.89,Regular,10
+2023-07-07,Houston,Mocha,Specialty,25,3.83,New,7
+2023-05-08,New York,Cappuccino,Milk-Based,14,3.14,Regular,10
+2023-09-13,Miami,Latte,Milk-Based,25,5.04,New,10
+2023-03-02,Chicago,Mocha,Specialty,5,5.36,New,8
+2023-04-20,Miami,Americano,Classic,7,5.64,New,9
+2023-04-13,New York,Americano,Classic,11,5.71,Regular,10
+2023-08-20,Los Angeles,Espresso,Classic,25,5.23,New,5
+2023-12-16,Chicago,Espresso,Classic,27,4.2,New,8
+2023-10-09,Miami,Espresso,Classic,21,5.49,New,9
+2023-03-22,Los Angeles,Cappuccino,Milk-Based,11,3.53,New,4
+2023-04-25,New York,Mocha,Specialty,9,3.56,Regular,10
+2023-05-02,Houston,Latte,Milk-Based,24,4.05,Regular,8
+2023-10-11,Miami,Cappuccino,Milk-Based,22,5.91,New,10
+2023-10-10,Los Angeles,Americano,Classic,9,5.78,Regular,4
+2023-06-08,Houston,Espresso,Classic,17,3.52,New,8
+2023-07-30,Houston,Mocha,Specialty,3,5.27,Regular,6
+2023-06-12,New York,Latte,Milk-Based,24,5.69,New,9
+2023-12-15,Miami,Americano,Classic,6,4.87,New,8
+2023-10-10,Miami,Latte,Milk-Based,9,5.68,Regular,10
+2023-08-10,Miami,Latte,Milk-Based,2,4.37,Regular,9
+2023-09-23,Los Angeles,Espresso,Classic,3,3.82,New,4
+2023-03-24,Chicago,Latte,Milk-Based,3,5.87,Regular,9
+2023-09-23,Chicago,Cappuccino,Milk-Based,9,3.99,Regular,7
+2023-04-11,Miami,Cappuccino,Milk-Based,5,5.21,New,10
+2023-11-17,Chicago,Latte,Milk-Based,24,3.76,Regular,9
+2023-11-25,Los Angeles,Mocha,Specialty,8,5.09,Regular,4
+2023-12-04,Miami,Latte,Milk-Based,18,3.24,New,10
+2023-01-22,New York,Mocha,Specialty,13,5.55,Regular,10
+2023-11-25,Miami,Espresso,Classic,13,4.44,New,9
+2023-10-20,Houston,Latte,Milk-Based,26,4.71,Regular,7
+2023-11-18,Miami,Americano,Classic,2,4.63,New,9
+2023-09-05,Los Angeles,Cappuccino,Milk-Based,6,4.56,New,4
+2023-08-21,New York,Cappuccino,Milk-Based,28,5.55,Regular,10
+2023-08-14,Houston,Latte,Milk-Based,13,5.51,New,8
+2023-04-15,Chicago,Americano,Classic,21,5.04,Regular,7
+2023-06-13,Chicago,Cappuccino,Milk-Based,28,3.48,New,8
+2023-07-09,Miami,Latte,Milk-Based,25,3.09,Regular,9
+2023-05-04,Houston,Cappuccino,Milk-Based,10,3.39,Regular,7
+2023-08-19,Los Angeles,Cappuccino,Milk-Based,7,3.48,Regular,4
+2023-01-26,Chicago,Espresso,Classic,2,5.5,New,8
+2023-08-03,Los Angeles,Mocha,Specialty,2,3.86,Regular,4
+2023-10-23,Chicago,Cappuccino,Milk-Based,9,4.9,Regular,8
+2023-09-13,Miami,Latte,Milk-Based,28,3.03,New,8
+2023-06-07,Houston,Americano,Classic,16,3.32,Regular,8
