@@ -1,0 +1,90 @@
+-- Producto más vendido
+-- SELECT: Selecciona el nombre del producto y la suma de las cantidades vendidas.
+-- SUM(dp.cantidad): Función de agregación que suma la cantidad de cada producto en todos los pedidos.
+-- FROM ... JOIN ... ON: Une la tabla 'productos' con 'detalle_pedidos' para vincular los productos con sus ventas.
+-- GROUP BY: Agrupa los resultados por el nombre del producto para que SUM() funcione correctamente para cada uno.
+-- ORDER BY ... DESC: Ordena el resultado de forma descendente (DESC) para que el producto más vendido aparezca primero.
+SELECT 
+    p.nombre,
+    SUM(dp.cantidad) AS unidades_vendidas
+FROM productos p
+JOIN detalle_pedidos dp ON p.producto_id = dp.producto_id
+GROUP BY p.nombre
+ORDER BY unidades_vendidas DESC;
+
+
+-- Clientes con más pedidos pendientes
+-- SELECT: Muestra el nombre del cliente y cuenta el número de pedidos.
+-- COUNT(pe.pedido_id): Función de agregación que cuenta el número de pedidos para cada cliente.
+-- FROM ... JOIN ... ON: Une las tablas 'clientes' y 'pedidos'.
+-- WHERE: Filtra los resultados para incluir solo los pedidos con estado 'Pendiente'.
+-- GROUP BY: Agrupa los resultados por el nombre del cliente.
+-- ORDER BY ... DESC: Ordena por el número de pedidos de forma descendente para mostrar a los clientes con más pedidos pendientes primero.
+SELECT 
+    cl.nombre,
+    COUNT(pe.pedido_id) AS pedidos_pendientes
+FROM clientes cl
+JOIN pedidos pe ON cl.cliente_id = pe.cliente_id
+WHERE pe.estado = 'Pendiente'
+GROUP BY cl.nombre
+ORDER BY pedidos_pendientes DESC;
+
+
+-- Productos con stock menor a 20
+-- SELECT: Muestra el nombre y el stock de los productos.
+-- WHERE: Filtra los productos cuya columna 'stock' es menor que 20.
+-- ORDER BY: Ordena el resultado por la cantidad de stock de menor a mayor (por defecto ASC).
+SELECT nombre, stock
+FROM productos
+WHERE stock < 20
+ORDER BY stock ASC;
+
+
+-- Ingresos totales de la tienda
+-- SELECT: Muestra la suma total.
+-- SUM(dp.cantidad * dp.precio_unitario): Suma el valor total de cada línea de pedido (cantidad por precio unitario).
+-- FROM: Se ejecuta sobre la tabla 'detalle_pedidos' ya que contiene la información de precios y cantidades.
+SELECT 
+    SUM(cantidad * precio_unitario) AS ingresos_totales
+FROM detalle_pedidos;
+
+
+-- Historial de pedidos de un cliente específico (por ejemplo, 'Ana López')
+-- SELECT: Muestra el nombre del cliente, el producto, la cantidad y el precio.
+-- FROM ... JOIN ... ON (múltiple): Une las tablas de clientes, pedidos, detalles y productos.
+-- WHERE: Filtra los resultados para mostrar solo los pedidos del cliente con nombre 'Ana López'.
+SELECT
+    cl.nombre AS cliente,
+    pe.pedido_id,
+    pr.nombre AS producto,
+    dp.cantidad,
+    dp.precio_unitario
+FROM clientes cl
+JOIN pedidos pe ON cl.cliente_id = pe.cliente_id
+JOIN detalle_pedidos dp ON pe.pedido_id = dp.pedido_id
+JOIN productos pr ON dp.producto_id = pr.producto_id
+WHERE cl.nombre = 'Ana López';
+
+
+-- Precio promedio por categoría
+-- SELECT: Muestra el nombre de la categoría y el precio promedio.
+-- AVG(p.precio): Función de agregación que calcula el promedio de los precios.
+-- FROM ... JOIN ... ON: Une 'productos' y 'categorias'.
+-- GROUP BY: Agrupa los resultados por el nombre de la categoría.
+SELECT 
+    c.nombre AS categoria,
+    AVG(p.precio) AS precio_promedio
+FROM productos p
+JOIN categorias c ON p.categoria_id = c.categoria_id
+GROUP BY c.nombre;
+
+
+-- Clientes que no han realizado pedidos
+-- SELECT: Muestra el nombre del cliente.
+-- LEFT JOIN: Realiza una unión que incluye todos los registros de la tabla de la izquierda ('clientes'), incluso si no hay coincidencias en la tabla de la derecha ('pedidos').
+-- ON: Define la condición de unión.
+-- WHERE ... IS NULL: Filtra los resultados para mostrar solo los clientes que no tienen un 'pedido_id' coincidente, es decir, aquellos que nunca han hecho un pedido.
+SELECT cl.nombre
+FROM clientes cl
+LEFT JOIN pedidos pe ON cl.cliente_id = pe.cliente_id
+WHERE pe.pedido_id IS NULL;

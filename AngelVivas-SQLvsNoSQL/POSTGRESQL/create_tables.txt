@@ -1,0 +1,38 @@
+-- 1. Tabla de categorías
+CREATE TABLE categorias (
+    categoria_id SERIAL PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL
+);
+
+-- 2. Tabla de productos
+CREATE TABLE productos (
+    producto_id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    precio NUMERIC(10, 2) NOT NULL,
+    stock INT NOT NULL,
+    categoria_id INT REFERENCES categorias(categoria_id)
+);
+
+-- 3. Tabla de clientes
+CREATE TABLE clientes (
+    cliente_id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL
+);
+
+-- 4. Tabla de pedidos
+CREATE TABLE pedidos (
+    pedido_id SERIAL PRIMARY KEY,
+    cliente_id INT REFERENCES clientes(cliente_id),
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    estado VARCHAR(20) DEFAULT 'Pendiente'
+);
+
+-- 5. Tabla de detalles del pedido (relación muchos-a-muchos)
+CREATE TABLE detalle_pedidos (
+    detalle_id SERIAL PRIMARY KEY,
+    pedido_id INT REFERENCES pedidos(pedido_id),
+    producto_id INT REFERENCES productos(producto_id),
+    cantidad INT NOT NULL,
+    precio_unitario NUMERIC(10, 2) NOT NULL
+);

@@ -1,0 +1,109 @@
+-- Bloque: Insertar datos (CREATE en CRUD)
+-- -----------------------------------------------------------------------------
+-- Propósito: Agregar nuevos registros a las tablas.
+-- Palabras clave: INSERT INTO, VALUES.
+
+1. Insertar categorías
+-- INSERT INTO: Comando para añadir una nueva fila.
+-- categorias: Nombre de la tabla destino.
+-- (nombre): Columna en la que se va a insertar el valor.
+-- VALUES: Cláusula que especifica los valores a insertar.
+
+INSERT INTO categorias (nombre) VALUES 
+    ('Electrónicos'), ('Ropa'), ('Hogar');
+
+2. Insertar productos
+-- Se insertan 3 productos con sus respectivos nombres, precios, stock y la
+-- clave foránea (categoria_id) que los relaciona con la tabla 'categorias'.
+
+INSERT INTO productos (nombre, precio, stock, categoria_id) VALUES
+    ('iPhone 13', 999.99, 50, 1), -- El iPhone pertenece a la categoría con ID 1 (Electrónicos)
+    ('Jeans Slim Fit', 49.99, 100, 2), -- Los jeans a la categoría 2 (Ropa)
+    ('Sofá de Cuero', 599.99, 10, 3); -- El sofá a la categoría 3 (Hogar)
+
+3. Insertar clientes
+
+INSERT INTO clientes (nombre, email) VALUES
+    ('Ana López', 'ana@example.com'),
+    ('Carlos Ruiz', 'carlos@example.com');
+
+4. Insertar un pedido y sus detalles
+-- Se inserta un pedido para el cliente con ID 1 (Ana López).
+INSERT INTO pedidos (cliente_id) VALUES (1);
+
+-- Se insertan los detalles del pedido, relacionando el pedido con productos específicos.
+-- detalle_pedidos: Tabla que actúa como un "nexo" entre 'pedidos' y 'productos'.
+INSERT INTO detalle_pedidos (pedido_id, producto_id, cantidad, precio_unitario) VALUES
+    (1, 1, 1, 999.99),  -- Ana compró 1 unidad del producto 1 (iPhone 13)
+    (1, 2, 2, 49.99);   -- Y 2 unidades del producto 2 (Jeans Slim Fit)
+
+
+-- Bloque: Consultar datos (READ en CRUD)
+-- -----------------------------------------------------------------------------
+-- Propósito: Recuperar datos de la base de datos.
+-- Palabras clave: SELECT, FROM, JOIN, ON, WHERE, GROUP BY, SUM, AS.
+
+1. Consulta de productos de una categoría específica
+-- SELECT: Indica qué columnas mostrar. p y c son alias de las tablas 'productos' y 'categorias'.
+-- JOIN: Une las tablas 'productos' y 'categorias'.
+-- ON: Define la condición de la unión (donde la clave foránea coincide con la primaria).
+-- WHERE: Filtra los resultados para mostrar solo la categoría 'Electrónicos'.
+
+SELECT p.nombre, p.precio
+FROM productos p
+JOIN categorias c ON p.categoria_id = c.categoria_id
+WHERE c.nombre = 'Electrónicos';
+
+2. Pedidos con detalles de clientes y productos
+-- SELECT ... AS: Muestra el resultado con alias de columna más descriptivos ('cliente', 'producto', 'total').
+-- JOIN ... JOIN ... JOIN: Une cuatro tablas para combinar toda la información del pedido.
+SELECT 
+    cl.nombre AS cliente,
+    pr.nombre AS producto,
+    dp.cantidad,
+    dp.precio_unitario,
+    (dp.cantidad * dp.precio_unitario) AS total -- Se calcula el subtotal por ítem
+FROM pedidos pe
+JOIN clientes cl ON pe.cliente_id = cl.cliente_id
+JOIN detalle_pedidos dp ON pe.pedido_id = dp.pedido_id
+JOIN productos pr ON dp.producto_id = pr.producto_id;
+
+3. Total gastado por cliente
+-- SUM(): Función de agregación que suma los valores de la expresión (cantidad * precio_unitario).
+-- GROUP BY: Agrupa las filas con el mismo nombre de cliente para que SUM() funcione para cada uno.
+SELECT 
+    cl.nombre,
+    SUM(dp.cantidad * dp.precio_unitario) AS total_gastado
+FROM clientes cl
+JOIN pedidos pe ON cl.cliente_id = pe.cliente_id
+JOIN detalle_pedidos dp ON pe.pedido_id = dp.pedido_id
+GROUP BY cl.nombre;
+
+-- Bloque: Actualizar datos (UPDATE en CRUD)
+-- -----------------------------------------------------------------------------
+-- Propósito: Modificar registros existentes.
+-- Palabras clave: UPDATE, SET, WHERE.
+
+1. Actualizar el precio de un producto
+-- UPDATE: Indica que se va a modificar una tabla.
+-- SET: Define qué columna se va a cambiar y cuál será su nuevo valor.
+-- WHERE: CLÁUSULA CRUCIAL. Solo actualiza el registro con producto_id = 1.
+
+UPDATE productos SET precio = 899.99 WHERE producto_id = 1;
+
+2. Cambiar el estado de un pedido
+-- Se actualiza el estado del pedido con ID 1 a 'Enviado'.
+
+UPDATE pedidos SET estado = 'Enviado' WHERE pedido_id = 1;
+
+
+-- Bloque: Eliminar datos (DELETE en CRUD)
+-- -----------------------------------------------------------------------------
+-- Propósito: Borrar registros de una tabla.
+-- Palabras clave: DELETE FROM, WHERE.
+
+-- Eliminar un producto
+-- DELETE FROM: Comando para eliminar una o más filas.
+-- WHERE: CLÁUSULA CRUCIAL. Sin esta cláusula, se borrarían TODOS los productos.
+
+DELETE FROM productos WHERE producto_id = 3;

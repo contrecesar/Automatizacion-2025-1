@@ -1,0 +1,11 @@
+---------Relaciona colecciones
+db.usuarios.aggregate([
+  {
+    $lookup: {
+      from: "pedidos",
+      localField: "_id",
+      foreignField: "usuario_id",
+      as: "historial_compras"
+    }
+  }
+]);

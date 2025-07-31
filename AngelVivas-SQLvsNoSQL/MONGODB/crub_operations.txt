@@ -1,0 +1,36 @@
+// Operaciones de Lectura (Read) en MongoDB
+
+// 1. Encontrar todos los usuarios en la colección 'usuarios'.
+db.usuarios.find().pretty();
+
+// 2. Encontrar todos los pedidos en la colección 'pedidos'.
+db.pedidos.find().pretty();
+
+// 3. Encontrar usuarios cuya dirección de ciudad es "Madrid".
+// Esta es una búsqueda simple en un documento anidado.
+db.usuarios.find({ "direccion.ciudad": "Madrid" });
+
+// 4. Encontrar pedidos con un total mayor a 500.
+// $gt es el operador "greater than" (mayor que).
+db.pedidos.find({ total: { $gt: 500 } });
+
+// 5. Encontrar usuarios de un país específico.
+// Aquí buscamos todos los usuarios que viven en "España".
+db.usuarios.find({ "direccion.pais": "España" });
+
+// 6. Encontrar pedidos que contengan un producto específico.
+// $in es el operador "in" y busca un valor dentro de un array.
+db.pedidos.find({ productos: { $in: ["Laptop"] } });
+
+// 7. Encontrar pedidos realizados en un rango de fechas.
+// Utilizamos $gte (mayor o igual que) y $lt (menor que) para el rango.
+db.pedidos.find({ 
+  "fecha": { 
+    $gte: ISODate("2023-01-01T00:00:00Z"),
+    $lt: ISODate("2023-07-01T00:00:00Z")
+  } 
+});
+
+// 8. Contar el número de pedidos de un usuario específico.
+// Esto usa el método .countDocuments() en la colección.
+db.pedidos.countDocuments({ usuario_id: 1 });

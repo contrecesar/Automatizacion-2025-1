@@ -1,0 +1,16 @@
+[
+  {
+    "_id": 101,
+    "usuario_id": 1,
+    "productos": ["Laptop", "Mouse"],
+    "total": 1200.50,
+    "fecha": { "$date": "2023-05-15T00:00:00Z" }
+  },
+  {
+    "_id": 102,
+    "usuario_id": 2,
+    "productos": ["Teclado", "Monitor"],
+    "total": 350.75,
+    "fecha": { "$date": "2023-06-20T00:00:00Z" }
+  }
+]

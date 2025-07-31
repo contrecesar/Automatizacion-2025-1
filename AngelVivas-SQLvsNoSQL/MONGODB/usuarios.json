@@ -1,0 +1,20 @@
+[
+  {
+    "_id": 1,
+    "nombre": "Ana García",
+    "email": "ana@example.com",
+    "direccion": {
+      "ciudad": "Madrid",
+      "pais": "España"
+    }
+  },
+  {
+    "_id": 2,
+    "nombre": "Carlos Ruiz",
+    "email": "carlos@example.com",
+    "direccion": {
+      "ciudad": "Barcelona",
+      "pais": "España"
+    }
+  }
+]
