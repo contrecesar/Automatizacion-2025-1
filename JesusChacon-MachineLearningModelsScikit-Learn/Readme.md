@@ -1,32 +1,61 @@
-RetailX Customer Churn Analysis
+# RetailX - Customer Churn Analysis
+
 This project demonstrates a machine learning workflow to analyze and predict customer churn for a retail company using Scikit-learn.
 
-Overview
+## 🔍 Overview
+
 The notebook performs the following tasks step-by-step:
 
-Data Loading: Load the customer dataset containing features such as spending, visits, region, and churn status.
+1. **Data Loading**
+   Loads the customer dataset (`RetailX_CustomerData.csv`) directly from GitHub.
 
-Exploratory Data Analysis (EDA): Explore dataset structure, check for missing values, and visualize key relationships like spending vs churn.
+2. **Exploratory Data Analysis (EDA)**  
+   - Displays data structure and statistics  
+   - Checks for missing values  
+   - Visualizes relationships like `TotalSpent` vs `Churn`
 
-Data Preprocessing: Convert categorical variables to numeric using one-hot encoding and scale the features for model training.
+3. **Data Preprocessing**  
+   - Converts categorical variables (`Region`, `ProductCategory`) to numeric using one-hot encoding  
+   - Scales numeric features for better model performance
 
-Train/Test Split: Split the dataset into training and testing subsets.
+4. **Train/Test Split**  
+   Splits the dataset into training and testing sets (70% / 30%).
 
-Model Training: Train a Random Forest classifier to predict whether a customer will churn or not.
+5. **Model Training**  
+   Performs hyperparameter tuning using `GridSearchCV` to train an optimized `RandomForestClassifier` for predicting customer churn.
 
-Model Evaluation: Evaluate the model using classification metrics (precision, recall, F1-score, accuracy, ROC AUC) and visualize results with confusion matrix and feature importance plots.
+6. **Model Evaluation**  
+   - Prints classification report: precision, recall, F1-score, accuracy  
+   - Computes ROC AUC  
+   - Visualizes the confusion matrix  
+   - Plots top 10 important features
 
-How to Run
-Simply open the notebook in Google Colab and run each cell sequentially:
+---
 
-RetailX Churn Analysis Notebook
+## ▶️ How to Run
 
-Requirements
-All necessary Python libraries (pandas, numpy, seaborn, matplotlib, scikit-learn) are pre-installed in Colab. No additional setup is needed.
+You can run the full notebook with one click and no setup required:
 
-Notes
-The dataset RetailX_CustomerData.csv is automatically downloaded from the GitHub repository when running the notebook.
+👉 **[Open in Google Colab](https://colab.research.google.com/github/contrecesar/Automatizacion-2025-1/blob/main/JesusChacon-MachineLearningModelsScikit-Learn/RetailX_Churn_Analysis.ipynb)**
 
-Execute the cells in order to ensure data is properly loaded, processed, and the model is trained and evaluated.
+### Steps:
+1. Open the notebook using the link above.
+2. Execute each cell in order from top to bottom (Shift + Enter).
+3. The dataset will be downloaded automatically—no need to upload anything.
+4. The model will be trained and evaluated within the same session.
 
-If you have any questions or suggestions, feel free to reach out!
+---
+
+## 📁 Dataset
+
+- **File**: `RetailX_CustomerData.csv`
+- **Features**:
+  - `CustomerID`: Unique customer ID
+  - `Region`: Customer's region
+  - `ProductCategory`: Main product category
+  - `TotalSpent`: Total spending by the customer
+  - `VisitsPerMonth`: Monthly visit frequency
+  - `LastPurchaseDays`: Days since last purchase
+  - `Churn`: Target variable (0 = retained, 1 = churned)
+
+The dataset is automatically downloaded using a code cell in the notebook from this GitHub repository:
