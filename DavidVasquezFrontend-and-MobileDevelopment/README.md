@@ -1,6 +1,6 @@
-# Aplicaciones de Consulta de Clima - React, Angular y Vue
+# Aplicaciones de Consulta de Clima - React, Angular, Vue y React Native
 
-Este proyecto contiene tres aplicaciones web que demuestran las funcionalidades de consulta de clima implementadas en los principales frameworks de frontend: React, Angular y Vue.js.
+Este proyecto contiene cuatro aplicaciones que demuestran las funcionalidades de consulta de clima implementadas en los principales frameworks de frontend y mobile: React, Angular, Vue.js y React Native.
 
 ## 🌤️ Funcionalidades de Clima
 
@@ -13,6 +13,7 @@ Cada aplicación incluye:
 - **Manejo de errores**: Mensajes informativos para ciudades no encontradas
 - **Diseño responsivo**: Funciona perfectamente en dispositivos móviles y desktop
 - **Interfaz en español**: Todas las descripciones y mensajes en español
+- **API Key dinámica**: Las aplicaciones web solicitan tu API key de OpenWeatherMap al usuario
 
 ## 🚀 Configuración
 
@@ -25,25 +26,15 @@ Para que las aplicaciones funcionen correctamente, necesitas obtener una API key
 3. Ve a "API Keys" en tu perfil
 4. Copia tu API key
 
-### 2. Configurar API Key en cada aplicación
+### 2. Usar la API Key en las aplicaciones
 
-#### React App
-```typescript
-// En react-app/src/App.tsx
-const API_KEY = 'TU_API_KEY_AQUI'; // Reemplaza con tu API key
-```
-
-#### Angular App
-```typescript
-// En angular-app/src/app/app.ts
-private readonly API_KEY = 'TU_API_KEY_AQUI'; // Reemplaza con tu API key
-```
-
-#### Vue App
-```javascript
-// En vue-app/src/App.vue
-const API_KEY = 'TU_API_KEY_AQUI' // Reemplaza con tu API key
-```
+#### Aplicaciones Web (React, Angular, Vue)
+Las aplicaciones web ahora solicitan tu API key directamente en la interfaz:
+1. Abre cualquiera de las aplicaciones web
+2. En la sección de clima, verás instrucciones para obtener tu API key
+3. Haz clic en "Show API Key Instructions"
+4. Pega tu API key en el campo de texto
+5. ¡Ya puedes buscar el clima de cualquier ciudad!
 
 ## 📦 Instalación y Ejecución
 
@@ -71,6 +62,19 @@ npm run dev
 ```
 La aplicación estará disponible en: http://localhost:5173
 
+### React Native App
+```bash
+cd react-native-app
+npm install
+npx expo start
+```
+
+#### Opciones de ejecución de React Native:
+- **Web**: Presiona `w` para abrir en el navegador
+- **Android**: Presiona `a` para abrir en emulador Android
+- **iOS**: Presiona `i` para abrir en simulador iOS (solo macOS)
+- **Dispositivo físico**: Escanea el código QR con la app Expo Go
+
 ## 🎨 Características de cada Framework
 
 ### React
@@ -91,6 +95,12 @@ La aplicación estará disponible en: http://localhost:5173
 - **Directivas**: v-model, v-if, v-for para manipulación del DOM
 - **SFC**: Single File Components con template, script y estilos
 
+### React Native
+- **Componentes nativos**: Button, Text, View, etc.
+- **Expo**: Framework para desarrollo rápido
+- **Cross-platform**: Mismo código para iOS y Android
+- **APIs nativas**: Acceso a funcionalidades del dispositivo
+
 ## 🔧 Tecnologías Utilizadas
 
 ### React
@@ -109,6 +119,12 @@ La aplicación estará disponible en: http://localhost:5173
 - Vue 3
 - Composition API
 - Scoped CSS
+- Fetch API
+
+### React Native
+- React Native
+- Expo
+- TypeScript
 - Fetch API
 
 ## 📱 Diseño Responsivo
@@ -137,9 +153,9 @@ Las aplicaciones utilizan la API de OpenWeatherMap que proporciona:
 
 ## 🔒 Seguridad
 
-- Las API keys deben mantenerse privadas
-- No subir las keys a repositorios públicos
-- Usar variables de entorno en producción
+- Las API keys se almacenan solo en el navegador del usuario
+- No se envían a ningún servidor excepto OpenWeatherMap
+- Las aplicaciones web solicitan la key dinámicamente
 - Implementar rate limiting para evitar abuso de la API
 
 ## 📄 Licencia
@@ -161,7 +177,8 @@ Si tienes problemas o preguntas:
 - Revisa la documentación de cada framework
 - Verifica que tu API key sea válida
 - Asegúrate de que todas las dependencias estén instaladas
+- Para React Native, asegúrate de tener Expo CLI instalado
 
 ---
 
-¡Disfruta explorando las diferentes implementaciones de consulta de clima en React, Angular y Vue! 🌤️ 
+¡Disfruta explorando las diferentes implementaciones de consulta de clima en React, Angular, Vue y React Native! 🌤️ 
