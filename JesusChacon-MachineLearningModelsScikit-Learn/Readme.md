@@ -2,7 +2,7 @@
 
 This project demonstrates a machine learning workflow to analyze and predict customer churn for a retail company using Scikit-learn and XGBoost
 
-##🔍 Overview
+## 🔍 Overview
 
 The notebook performs the following tasks step-by-step:
 
