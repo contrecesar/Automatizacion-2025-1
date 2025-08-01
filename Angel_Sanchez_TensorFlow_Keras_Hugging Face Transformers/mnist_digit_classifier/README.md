@@ -34,15 +34,18 @@ All plots are saved automatically and also shown on-screen during execution.
 ---
 
 ## 📦 requirements.txt
-
+```bash
 tensorflow
+
 matplotlib
+
 scikit-learn
+
 numpy
+
 seaborn
+```
 
-
----
 
 ## 🚀 How to Run (Git Bash on Windows)
 
