@@ -60,5 +60,5 @@ python -m src.confusion.py
 You can predict whether a headline is real or fake with:
 
 ```bash
-python src/predict.py "(Any news headline)"
+python src/predict.py "Any news headline"
 ```
