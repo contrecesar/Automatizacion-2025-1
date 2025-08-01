@@ -51,18 +51,24 @@ Follow the steps below to run the project from scratch:
 ### 1. Clone the Repository
 
 ### 2. Create and Activate Virtual Environment
+
 ```bash
 python -m venv venv
-source venv/Scripts/activate  # Use this in Git Bash on Windows
+
+source venv/Scripts/activate
 ```
+
 ### 3. Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 ### 4. Run the Training Script
+
 ```bash
 python mnist_dense_model.py
 ```
+
 All generated graphs will be saved in the results/ folder.
 
 
